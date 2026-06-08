@@ -68,6 +68,9 @@ dependencies {
     // Kotlinx Serialization
     implementation(libs.kotlinx.serialization.json)
 
+    // Gson (for deserializing external library classes like FloorMapData)
+    implementation(libs.gson)
+
     // DataStore
     implementation(libs.datastore.preferences)
 
@@ -78,4 +81,6 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    implementation(files("libs/hsmap-2.0.2rc1.aar"))
 }

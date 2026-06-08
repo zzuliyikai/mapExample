@@ -33,14 +33,17 @@ class LoginViewModel @Inject constructor(
                 when (result) {
                     is Result.Loading -> _uiState.value = LoginUiState.Loading()
                     is Result.Success -> {
+                        val loginData = result.data.data!!
                         tokenManager.saveToken(
-                            token = result.data.token,
-                            userId = result.data.userId,
-                            username = result.data.username
+                            accessToken = loginData.accessToken,
+                            refreshToken = loginData.refreshToken,
+                            tokenType = loginData.tokenType,
+                            expiresIn = loginData.expiresIn,
+                            remoteLogin = loginData.remoteLogin
                         )
                         _uiState.value = LoginUiState.Success(
-                            token = result.data.token,
-                            username = result.data.username
+                            accessToken = loginData.accessToken,
+                            refreshToken = loginData.refreshToken
                         )
                     }
                     is Result.Error -> _uiState.value = LoginUiState.Error(result.message)

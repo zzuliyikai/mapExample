@@ -36,10 +36,10 @@ fun LoginScreen(
     val uiState by viewModel.uiState.collectAsState()
     val snackbarHostState = remember { SnackbarHostState() }
 
-    var username by remember { mutableStateOf("") }
-    var password by remember { mutableStateOf("") }
+    var username by remember { mutableStateOf("yikai") }
+    var password by remember { mutableStateOf("aspas0") }
 
-    // 登录成功后跳转
+    // Navigate after successful login
     LaunchedEffect(uiState) {
         when (uiState) {
             is LoginUiState.Success -> onLoginSuccess()
@@ -62,7 +62,7 @@ fun LoginScreen(
             verticalArrangement = Arrangement.Center
         ) {
             Text(
-                text = "地图 Demo",
+                text = "Map Demo",
                 style = MaterialTheme.typography.headlineLarge,
                 color = MaterialTheme.colorScheme.primary
             )
@@ -72,7 +72,7 @@ fun LoginScreen(
             OutlinedTextField(
                 value = username,
                 onValueChange = { username = it },
-                label = { Text("用户名") },
+                label = { Text("Username") },
                 modifier = Modifier.fillMaxWidth(),
                 singleLine = true,
                 enabled = uiState !is LoginUiState.Loading
@@ -83,7 +83,7 @@ fun LoginScreen(
             OutlinedTextField(
                 value = password,
                 onValueChange = { password = it },
-                label = { Text("密码") },
+                label = { Text("Password") },
                 modifier = Modifier.fillMaxWidth(),
                 singleLine = true,
                 enabled = uiState !is LoginUiState.Loading
@@ -99,13 +99,13 @@ fun LoginScreen(
                         if (username.isNotBlank() && password.isNotBlank()) {
                             viewModel.handleIntent(LoginIntent.Login(username, password))
                         } else {
-                            // 简单校验提示
+                            // Simple validation hint
                         }
                     },
                     modifier = Modifier.fillMaxWidth(),
                     enabled = username.isNotBlank() && password.isNotBlank()
                 ) {
-                    Text("登录")
+                    Text("Login")
                 }
             }
         }

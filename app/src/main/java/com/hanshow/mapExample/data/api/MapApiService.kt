@@ -1,9 +1,10 @@
 package com.hanshow.mapExample.data.api
 
-import com.hanshow.mapExample.data.model.map.MapDataResponse
-import retrofit2.http.GET
+import okhttp3.ResponseBody
+import retrofit2.http.Body
+import retrofit2.http.POST
 
 interface MapApiService {
-    @GET("map/data")
-    suspend fun getMapData(): MapDataResponse
+    @POST("proxy/mapsweb/mapfloor/get")
+    suspend fun getMapData(@Body request: MapDataRequest): ResponseBody
 }

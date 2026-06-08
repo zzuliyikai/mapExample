@@ -20,7 +20,7 @@ fun AppNavigation(
             LoginScreen(
                 onLoginSuccess = {
                     navController.navigate(Route.Map.route) {
-                        // 登录成功后清除登录页回栈，防止返回登录页
+                        // Clear login backstack after successful login to prevent going back
                         popUpTo(Route.Login.route) { inclusive = true }
                     }
                 }

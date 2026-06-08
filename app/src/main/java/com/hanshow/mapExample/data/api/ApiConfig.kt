@@ -1,9 +1,13 @@
 package com.hanshow.mapExample.data.api
 
 object ApiConfig {
-    // 登录后端 - Mock 时可替换为真实地址
+    // Auth backend - Replace with real URL when not mocking
     const val AUTH_BASE_URL = "https://showroom1.hanshowcloud.com/"
 
-    // 地图后端 - Mock 时可替换为真实地址
-    const val MAP_BASE_URL = "https://map.example.com/api/"
+    // Map backend - Replace with real URL when not mocking
+    const val MAP_BASE_URL = "https://showroom1.hanshowcloud.com/"
+
+    // Map API headers config
+    const val CUSTOMER_CODE = "hs"
+    const val STORE_CODE = "1802"
 }

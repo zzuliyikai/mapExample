@@ -1,10 +1,5 @@
 package com.hanshow.mapExample.data.model.auth
 
-import kotlinx.serialization.Serializable
+import com.hanshow.mapExample.data.model.BaseResponse
 
-@Serializable
-data class LoginResponse(
-    val token: String,
-    val userId: String,
-    val username: String
-)
+typealias LoginResponse = BaseResponse<LoginData>

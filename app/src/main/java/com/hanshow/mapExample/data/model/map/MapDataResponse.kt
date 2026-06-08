@@ -8,7 +8,7 @@ data class MapNode(
     val x: Float,
     val y: Float,
     val label: String,
-    val type: String = "default" // default, highlight, warning 等
+    val type: String = "default" // default, highlight, warning, etc.
 )
 
 @Serializable
@@ -16,7 +16,7 @@ data class MapEdge(
     val fromId: String,
     val toId: String,
     val label: String = "",
-    val style: String = "solid" // solid, dashed 等
+    val style: String = "solid" // solid, dashed, etc.
 )
 
 @Serializable

@@ -19,32 +19,48 @@ class TokenManager @Inject constructor(
     @ApplicationContext private val context: Context
 ) {
     companion object {
-        private val TOKEN_KEY = stringPreferencesKey("auth_token")
-        private val USER_ID_KEY = stringPreferencesKey("user_id")
-        private val USERNAME_KEY = stringPreferencesKey("username")
+        private val ACCESS_TOKEN_KEY = stringPreferencesKey("access_token")
+        private val REFRESH_TOKEN_KEY = stringPreferencesKey("refresh_token")
+        private val TOKEN_TYPE_KEY = stringPreferencesKey("token_type")
+        private val EXPIRES_IN_KEY = stringPreferencesKey("expires_in")
+        private val REMOTE_LOGIN_KEY = stringPreferencesKey("remote_login")
     }
 
-    suspend fun saveToken(token: String, userId: String, username: String) {
+    suspend fun saveToken(
+        accessToken: String,
+        refreshToken: String,
+        tokenType: String,
+        expiresIn: String,
+        remoteLogin: String
+    ) {
         context.dataStore.edit { prefs ->
-            prefs[TOKEN_KEY] = token
-            prefs[USER_ID_KEY] = userId
-            prefs[USERNAME_KEY] = username
+            prefs[ACCESS_TOKEN_KEY] = accessToken
+            prefs[REFRESH_TOKEN_KEY] = refreshToken
+            prefs[TOKEN_TYPE_KEY] = tokenType
+            prefs[EXPIRES_IN_KEY] = expiresIn
+            prefs[REMOTE_LOGIN_KEY] = remoteLogin
         }
     }
 
-    suspend fun getToken(): String? {
-        return context.dataStore.data.map { prefs -> prefs[TOKEN_KEY] }.first()
+    suspend fun getAccessToken(): String? {
+        return context.dataStore.data.map { prefs -> prefs[ACCESS_TOKEN_KEY] }.first()
     }
 
-    suspend fun getUsername(): String? {
-        return context.dataStore.data.map { prefs -> prefs[USERNAME_KEY] }.first()
+    suspend fun getRefreshToken(): String? {
+        return context.dataStore.data.map { prefs -> prefs[REFRESH_TOKEN_KEY] }.first()
+    }
+
+    suspend fun getTokenType(): String? {
+        return context.dataStore.data.map { prefs -> prefs[TOKEN_TYPE_KEY] }.first()
     }
 
     suspend fun clearToken() {
         context.dataStore.edit { prefs ->
-            prefs.remove(TOKEN_KEY)
-            prefs.remove(USER_ID_KEY)
-            prefs.remove(USERNAME_KEY)
+            prefs.remove(ACCESS_TOKEN_KEY)
+            prefs.remove(REFRESH_TOKEN_KEY)
+            prefs.remove(TOKEN_TYPE_KEY)
+            prefs.remove(EXPIRES_IN_KEY)
+            prefs.remove(REMOTE_LOGIN_KEY)
         }
     }
 }

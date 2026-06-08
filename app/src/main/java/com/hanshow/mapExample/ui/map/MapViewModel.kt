@@ -27,7 +27,7 @@ class MapViewModel @Inject constructor(
 
     private fun loadMapData() {
         viewModelScope.launch {
-            mapRepository.getMapData().collect { result ->
+            mapRepository.getMapData(23).collect { result ->
                 when (result) {
                     is Result.Loading -> _uiState.value = MapUiState.Loading()
                     is Result.Success -> _uiState.value = MapUiState.Success(result.data)

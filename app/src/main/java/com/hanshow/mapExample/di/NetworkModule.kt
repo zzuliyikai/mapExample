@@ -1,9 +1,10 @@
 package com.hanshow.mapExample.di
 
 import com.hanshow.mapExample.data.api.AuthApiService
-import com.hanshow.mapExample.data.api.MapApiService
 import com.hanshow.mapExample.data.api.ApiConfig
-import com.hanshow.mapExample.util.TokenManager
+import com.hanshow.mapExample.data.api.HttpErrorInterceptor
+import com.hanshow.mapExample.data.api.MapApiService
+import com.hanshow.mapExample.data.api.MapHeaderInterceptor
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import dagger.Module
 import dagger.Provides
@@ -41,9 +42,11 @@ object NetworkModule {
     @Singleton
     @Named("authOkHttpClient")
     fun provideAuthOkHttpClient(
-        loggingInterceptor: HttpLoggingInterceptor
+        loggingInterceptor: HttpLoggingInterceptor,
+        httpErrorInterceptor: HttpErrorInterceptor
     ): OkHttpClient = OkHttpClient.Builder()
         .addInterceptor(loggingInterceptor)
+        .addInterceptor(httpErrorInterceptor)
         .build()
 
     @Provides
@@ -51,20 +54,12 @@ object NetworkModule {
     @Named("mapOkHttpClient")
     fun provideMapOkHttpClient(
         loggingInterceptor: HttpLoggingInterceptor,
-        tokenManager: TokenManager
+        httpErrorInterceptor: HttpErrorInterceptor,
+        mapHeaderInterceptor: MapHeaderInterceptor
     ): OkHttpClient = OkHttpClient.Builder()
         .addInterceptor(loggingInterceptor)
-        .addInterceptor { chain ->
-            val token = kotlinx.coroutines.runBlocking { tokenManager.getToken() }
-            val request = if (token != null) {
-                chain.request().newBuilder()
-                    .addHeader("Authorization", "Bearer $token")
-                    .build()
-            } else {
-                chain.request()
-            }
-            chain.proceed(request)
-        }
+        .addInterceptor(httpErrorInterceptor)
+        .addInterceptor(mapHeaderInterceptor)
         .build()
 
     @Provides
