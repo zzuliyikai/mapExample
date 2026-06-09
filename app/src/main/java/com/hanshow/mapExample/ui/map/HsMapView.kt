@@ -29,21 +29,23 @@ fun HsMapView(
         factory = { ctx ->
             HsMap(ctx, null).apply {
                 setMapData(mapData)
-                setScaleRange(0.5f, 5.0f)
-                routeStyle = RouteStyle(
-                    color = Color.Red.hashCode(),
-                    strokeWidth = 6f,
-                    cornerRadius = 10f,
-                    arrowColor = Color.White.hashCode(),
-                    arrowSpacing = 19f,
-                    arrowLength = 3f
-                )
-                selectionStyle = SelectionStyle(
-                    borderColor = Color.Red.hashCode(),
-                    fillColor = 0x80FF0000.toInt(),
-                    borderWidth = 2f,
-                    borderCornerRadius = 4f
-                )
+                setPositionAnimationDuration(1200)
+                setScaleRange(0.5f, 10.0f)
+                // Set route style for demo
+//                routeStyle = RouteStyle(
+//                    color = Color.Red.hashCode(),
+//                    strokeWidth = 6f,
+//                    cornerRadius = 10f,
+//                    arrowColor = Color.White.hashCode(),
+//                    arrowSpacing = 19f,
+//                    arrowLength = 3f
+//                )
+//                selectionStyle = SelectionStyle(
+//                    borderColor = Color.Red.hashCode(),
+//                    fillColor = 0x80FF0000.toInt(),
+//                    borderWidth = 2f,
+//                    borderCornerRadius = 4f
+//                )
                 hsMapRef.value = this
             }
         },

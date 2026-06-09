@@ -4,7 +4,7 @@ import com.google.gson.Gson
 import com.hanshow.hsmap.bean.FloorMapData
 import com.hanshow.mapExample.data.api.HttpErrorException
 import com.hanshow.mapExample.data.api.MapApiService
-import com.hanshow.mapExample.data.api.MapDataRequest
+import com.hanshow.mapExample.data.model.map.MapDataRequest
 import com.hanshow.mapExample.util.Result
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

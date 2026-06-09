@@ -1,4 +1,4 @@
-package com.hanshow.mapExample.data.api
+package com.hanshow.mapExample.data.model.map
 
 import kotlinx.serialization.Serializable
 

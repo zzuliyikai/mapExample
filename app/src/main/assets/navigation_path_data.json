@@ -1,0 +1,6415 @@
+[
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.14892578,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2382.5627999999997",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 332.71167,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 810.7117,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1045.7117,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "a869dd94-6a2e-4494-a30f-feb8782278c2",
+    "type": "notification",
+    "timestamp": 1778835935124,
+    "time": "2026-05-15 17:05:35",
+    "delayTime": 1027.0,
+    "currentLocation": {
+      "position": {
+        "x": "2382.5627999999997",
+        "y": "5623.1487",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "11.623364664372076",
+        "x": "2382.5627999999997",
+        "y": "5623.1487"
+      },
+      "mainOrientation": {
+        "angle": "11.623364664372076",
+        "x": "2382.5627999999997",
+        "y": "5623.1487"
+      },
+      "time": "2026-05-15 17:05:34",
+      "timeDiff_seconds": 0.347
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.13378906,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2430.6947999999998",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 380.8286,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 858.8286,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1093.8286,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "b81077de-0cbb-43b8-8533-8147e19560b5",
+    "type": "notification",
+    "timestamp": 1778835936151,
+    "time": "2026-05-15 17:05:36",
+    "delayTime": 949.0,
+    "currentLocation": {
+      "position": {
+        "x": "2430.6947999999998",
+        "y": "5623.134",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "11.623364664372076",
+        "x": "2430.6947999999998",
+        "y": "5623.134"
+      },
+      "mainOrientation": {
+        "angle": "11.623364664372076",
+        "x": "2430.6947999999998",
+        "y": "5623.134"
+      },
+      "time": "2026-05-15 17:05:35",
+      "timeDiff_seconds": 0.356
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.087402344,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2449.2007999999996",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 399.2881,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 877.2881,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1112.2881,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "eb0f8b2a-ea4e-4d15-aa6e-610e6f4bef77",
+    "type": "notification",
+    "timestamp": 1778835937100,
+    "time": "2026-05-15 17:05:37",
+    "delayTime": 1020.0,
+    "currentLocation": {
+      "position": {
+        "x": "2449.2007999999996",
+        "y": "5623.0873",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "11.623364664372076",
+        "x": "2449.2007999999996",
+        "y": "5623.0873"
+      },
+      "mainOrientation": {
+        "angle": "11.623364664372076",
+        "x": "2449.2007999999996",
+        "y": "5623.0873"
+      },
+      "time": "2026-05-15 17:05:36",
+      "timeDiff_seconds": 0.343
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.046875,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2212.0722",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 162.11914,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 640.11914,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 875.11914,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "89f5291a-61ef-425d-aa6e-dd20583ccb61",
+    "type": "notification",
+    "timestamp": 1778835938120,
+    "time": "2026-05-15 17:05:38",
+    "delayTime": 1011.0,
+    "currentLocation": {
+      "position": {
+        "x": "2212.0722",
+        "y": "5623.047",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "11.623364664372076",
+        "x": "2212.0722",
+        "y": "5623.047"
+      },
+      "mainOrientation": {
+        "angle": "11.623364664372076",
+        "x": "2212.0722",
+        "y": "5623.047"
+      },
+      "time": "2026-05-15 17:05:37",
+      "timeDiff_seconds": 0.362
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 1.3330078,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2205.3381",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 156.67114,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 634.67114,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 869.67114,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "855ae5f0-58bb-4406-9562-971aa35651f6",
+    "type": "notification",
+    "timestamp": 1778835939131,
+    "time": "2026-05-15 17:05:39",
+    "delayTime": 989.0,
+    "currentLocation": {
+      "position": {
+        "x": "2205.3381",
+        "y": "5621.667",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "11.056123409642595",
+        "x": "2205.3381",
+        "y": "5621.667"
+      },
+      "mainOrientation": {
+        "angle": "11.056123409642595",
+        "x": "2205.3381",
+        "y": "5621.667"
+      },
+      "time": "2026-05-15 17:05:38",
+      "timeDiff_seconds": 0.359
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 1.7954102,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2393.4565",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 345.25195,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 823.25195,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1058.252,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "64de9463-f076-442c-8214-e679e6f2b3a4",
+    "type": "notification",
+    "timestamp": 1778835940120,
+    "time": "2026-05-15 17:05:40",
+    "delayTime": 974.0,
+    "currentLocation": {
+      "position": {
+        "x": "2393.4565",
+        "y": "5621.2044",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "14.904891019246449",
+        "x": "2393.4565",
+        "y": "5621.2044"
+      },
+      "mainOrientation": {
+        "angle": "14.904891019246449",
+        "x": "2393.4565",
+        "y": "5621.2044"
+      },
+      "time": "2026-05-15 17:05:39",
+      "timeDiff_seconds": 0.349
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 7.5195312,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2455.3413",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 412.86084,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 890.86084,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1125.8608,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "4478c6f0-c4e8-460c-9d65-75b91faba6bd",
+    "type": "notification",
+    "timestamp": 1778835941094,
+    "time": "2026-05-15 17:05:41",
+    "delayTime": 1059.0,
+    "currentLocation": {
+      "position": {
+        "x": "2455.3413",
+        "y": "5615.4803999999995",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "14.243230758144222",
+        "x": "2455.3413",
+        "y": "5615.4803999999995"
+      },
+      "mainOrientation": {
+        "angle": "14.243230758144222",
+        "x": "2455.3413",
+        "y": "5615.4803999999995"
+      },
+      "time": "2026-05-15 17:05:40",
+      "timeDiff_seconds": 0.349
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 12.44043,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2532.3372",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 494.7776,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 972.7776,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1207.7776,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "923b5911-3890-48a7-9e41-885c9d2a48f5",
+    "type": "notification",
+    "timestamp": 1778835942153,
+    "time": "2026-05-15 17:05:42",
+    "delayTime": 999.0,
+    "currentLocation": {
+      "position": {
+        "x": "2532.3372",
+        "y": "5610.5595",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "16.239558647014718",
+        "x": "2532.3372",
+        "y": "5610.5595"
+      },
+      "mainOrientation": {
+        "angle": "16.239558647014718",
+        "x": "2532.3372",
+        "y": "5610.5595"
+      },
+      "time": "2026-05-15 17:05:41",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 3.2983398,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2649.407",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 602.7053,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1080.7053,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1315.7053,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "6b4163e7-40cd-4e1d-8caa-93c95439ca6b",
+    "type": "notification",
+    "timestamp": 1778835943152,
+    "time": "2026-05-15 17:05:43",
+    "delayTime": 1972.0,
+    "currentLocation": {
+      "position": {
+        "x": "2649.407",
+        "y": "5619.7018",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "17.48488641067658",
+        "x": "2649.407",
+        "y": "5619.7018"
+      },
+      "mainOrientation": {
+        "angle": "17.48488641067658",
+        "x": "2649.407",
+        "y": "5619.7018"
+      },
+      "time": "2026-05-15 17:05:42",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.61279297,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2640.1499999999996",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 590.7627,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1068.7627,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1303.7627,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "7d842230-e8a5-453a-be62-0e242a17d8b6",
+    "type": "notification",
+    "timestamp": 1778835945124,
+    "time": "2026-05-15 17:05:45",
+    "delayTime": 979.0,
+    "currentLocation": {
+      "position": {
+        "x": "2640.1499999999996",
+        "y": "5622.387",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "6.616628672671993",
+        "x": "2640.1499999999996",
+        "y": "5622.387"
+      },
+      "mainOrientation": {
+        "angle": "6.616628672671993",
+        "x": "2640.1499999999996",
+        "y": "5622.387"
+      },
+      "time": "2026-05-15 17:05:44",
+      "timeDiff_seconds": 0.353
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.13378906,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2798.2197",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 748.3535,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1226.3535,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1461.3535,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "8e789d19-9efb-4e42-b639-82247d46832d",
+    "type": "notification",
+    "timestamp": 1778835946103,
+    "time": "2026-05-15 17:05:46",
+    "delayTime": 1040.0,
+    "currentLocation": {
+      "position": {
+        "x": "2798.2197",
+        "y": "5622.866",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "11.169534975026679",
+        "x": "2798.2197",
+        "y": "5622.866"
+      },
+      "mainOrientation": {
+        "angle": "11.169534975026679",
+        "x": "2798.2197",
+        "y": "5622.866"
+      },
+      "time": "2026-05-15 17:05:45",
+      "timeDiff_seconds": 0.348
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.0,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2981.9804999999997",
+          "y": "5623.01",
+          "z": "F1"
+        },
+        {
+          "distance": 88.01953,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 566.01953,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1351.0195,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "7c0b68c0-e257-440d-abca-d678a3e0f131",
+    "type": "notification",
+    "timestamp": 1778835947143,
+    "time": "2026-05-15 17:05:47",
+    "delayTime": 988.0,
+    "currentLocation": {
+      "position": {
+        "x": "2981.9804999999997",
+        "y": "5623.01",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "30.986349415000348",
+        "x": "2981.9804999999997",
+        "y": "5623.01"
+      },
+      "mainOrientation": {
+        "angle": "30.986349415000348",
+        "x": "2981.9804999999997",
+        "y": "5623.01"
+      },
+      "time": "2026-05-15 17:05:46",
+      "timeDiff_seconds": 0.359
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 17.18042,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5463.6642",
+          "z": "F1"
+        },
+        {
+          "distance": 335.84448,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1120.8445,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "6cd7a638-4fb0-446b-95bc-1d52e381042b",
+    "type": "notification",
+    "timestamp": 1778835948131,
+    "time": "2026-05-15 17:05:48",
+    "delayTime": 1033.0,
+    "currentLocation": {
+      "position": {
+        "x": "3052.8196000000003",
+        "y": "5463.6642",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "76.745465778013",
+        "x": "3052.8196000000003",
+        "y": "5463.6642"
+      },
+      "mainOrientation": {
+        "angle": "76.745465778013",
+        "x": "3052.8196000000003",
+        "y": "5463.6642"
+      },
+      "time": "2026-05-15 17:05:47",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 2.8806152,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5549.576",
+          "z": "F1"
+        },
+        {
+          "distance": 407.4568,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1192.4568,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "5e4b3f82-3cd2-405e-9fba-212f1e4713fb",
+    "type": "notification",
+    "timestamp": 1778835949164,
+    "time": "2026-05-15 17:05:49",
+    "delayTime": 1026.0,
+    "currentLocation": {
+      "position": {
+        "x": "3072.8807",
+        "y": "5549.576",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-241.58101525644605",
+        "x": "3072.8807",
+        "y": "5549.576"
+      },
+      "mainOrientation": {
+        "angle": "-241.58101525644605",
+        "x": "3072.8807",
+        "y": "5549.576"
+      },
+      "time": "2026-05-15 17:05:48",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 2.8237305,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5520.3854",
+          "z": "F1"
+        },
+        {
+          "distance": 378.20898,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1163.209,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "c4d44eb4-14dc-4b2a-b59c-de16a81e2fc2",
+    "type": "notification",
+    "timestamp": 1778835950190,
+    "time": "2026-05-15 17:05:50",
+    "delayTime": 964.0,
+    "currentLocation": {
+      "position": {
+        "x": "3067.1762",
+        "y": "5520.3854",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-210.31665282208024",
+        "x": "3067.1762",
+        "y": "5520.3854"
+      },
+      "mainOrientation": {
+        "angle": "-210.31665282208024",
+        "x": "3067.1762",
+        "y": "5520.3854"
+      },
+      "time": "2026-05-15 17:05:49",
+      "timeDiff_seconds": 0.36
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 43.31006,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5480.3460000000005",
+          "z": "F1"
+        },
+        {
+          "distance": 378.65625,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1163.6562,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "dec62af4-793b-4009-b96a-662ecde0638b",
+    "type": "notification",
+    "timestamp": 1778835951154,
+    "time": "2026-05-15 17:05:51",
+    "delayTime": 1026.0,
+    "currentLocation": {
+      "position": {
+        "x": "3026.69",
+        "y": "5480.3460000000005",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-196.00960298865846",
+        "x": "3026.69",
+        "y": "5480.3460000000005"
+      },
+      "mainOrientation": {
+        "angle": "-196.00960298865846",
+        "x": "3026.69",
+        "y": "5480.3460000000005"
+      },
+      "time": "2026-05-15 17:05:50",
+      "timeDiff_seconds": 0.35
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 20.786133,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3044.0216",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 46.76465,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 258.76465,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1043.7646,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "b0556b2c-c379-41f1-8fd4-d2e042ce3715",
+    "type": "notification",
+    "timestamp": 1778835952180,
+    "time": "2026-05-15 17:05:52",
+    "delayTime": 1017.0,
+    "currentLocation": {
+      "position": {
+        "x": "3044.0216",
+        "y": "5377.786",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-183.63051852449502",
+        "x": "3044.0216",
+        "y": "5377.786"
+      },
+      "mainOrientation": {
+        "angle": "-183.63051852449502",
+        "x": "3044.0216",
+        "y": "5377.786"
+      },
+      "time": "2026-05-15 17:05:51",
+      "timeDiff_seconds": 0.352
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.44677734,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2953.2373",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 117.20947,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 329.20947,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1114.2095,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "fb53a8dc-9d09-45e4-849b-5f69db80be3d",
+    "type": "notification",
+    "timestamp": 1778835953197,
+    "time": "2026-05-15 17:05:53",
+    "delayTime": 1010.0,
+    "currentLocation": {
+      "position": {
+        "x": "2953.2373",
+        "y": "5357.4466999999995",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-179.3879696221498",
+        "x": "2953.2373",
+        "y": "5357.4466999999995"
+      },
+      "mainOrientation": {
+        "angle": "-179.3879696221498",
+        "x": "2953.2373",
+        "y": "5357.4466999999995"
+      },
+      "time": "2026-05-15 17:05:52",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 1.9707031,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2863.4228",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 208.54785,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 420.54785,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1205.5479,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "34cabde9-403b-47c4-ad9a-4e6268206020",
+    "type": "notification",
+    "timestamp": 1778835954207,
+    "time": "2026-05-15 17:05:54",
+    "delayTime": 941.0,
+    "currentLocation": {
+      "position": {
+        "x": "2863.4228",
+        "y": "5355.0293",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-180.28212001764575",
+        "x": "2863.4228",
+        "y": "5355.0293"
+      },
+      "mainOrientation": {
+        "angle": "-180.28212001764575",
+        "x": "2863.4228",
+        "y": "5355.0293"
+      },
+      "time": "2026-05-15 17:05:53",
+      "timeDiff_seconds": 0.357
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 6.423828,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2761.805",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 718.22876,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 930.22876,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1165.2288,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "9d09f8ec-abea-4679-a0c2-37f1161f0f6a",
+    "type": "notification",
+    "timestamp": 1778835955148,
+    "time": "2026-05-15 17:05:55",
+    "delayTime": 973.0,
+    "currentLocation": {
+      "position": {
+        "x": "2761.805",
+        "y": "5350.5764",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-177.95059159835773",
+        "x": "2761.805",
+        "y": "5350.5764"
+      },
+      "mainOrientation": {
+        "angle": "-177.95059159835773",
+        "x": "2761.805",
+        "y": "5350.5764"
+      },
+      "time": "2026-05-15 17:05:54",
+      "timeDiff_seconds": 0.353
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 8.851074,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2645.9543",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 604.8054,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 816.8054,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1051.8054,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "1696d9ee-69c9-4bb0-a139-d4c1b87ecf3c",
+    "type": "notification",
+    "timestamp": 1778835956121,
+    "time": "2026-05-15 17:05:56",
+    "delayTime": 996.0,
+    "currentLocation": {
+      "position": {
+        "x": "2645.9543",
+        "y": "5348.1487",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-177.53892708036426",
+        "x": "2645.9543",
+        "y": "5348.1487"
+      },
+      "mainOrientation": {
+        "angle": "-177.53892708036426",
+        "x": "2645.9543",
+        "y": "5348.1487"
+      },
+      "time": "2026-05-15 17:05:55",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 10.369141,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2525.7656",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 486.13477,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 698.13477,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 933.13477,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "e977016c-95f5-43ed-8c18-324bc2e28e86",
+    "type": "notification",
+    "timestamp": 1778835957117,
+    "time": "2026-05-15 17:05:57",
+    "delayTime": 1023.0,
+    "currentLocation": {
+      "position": {
+        "x": "2525.7656",
+        "y": "5346.631",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-180.43363222485704",
+        "x": "2525.7656",
+        "y": "5346.631"
+      },
+      "mainOrientation": {
+        "angle": "-180.43363222485704",
+        "x": "2525.7656",
+        "y": "5346.631"
+      },
+      "time": "2026-05-15 17:05:56",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 2.1777344,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2449.3015",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 401.47925,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 613.47925,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 848.47925,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "78c0e8ba-3b36-4d8a-a409-5278786d3aaa",
+    "type": "notification",
+    "timestamp": 1778835958140,
+    "time": "2026-05-15 17:05:58",
+    "delayTime": 1061.0,
+    "currentLocation": {
+      "position": {
+        "x": "2449.3015",
+        "y": "5354.8225",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-187.0879060847084",
+        "x": "2449.3015",
+        "y": "5354.8225"
+      },
+      "mainOrientation": {
+        "angle": "-187.0879060847084",
+        "x": "2449.3015",
+        "y": "5354.8225"
+      },
+      "time": "2026-05-15 17:05:57",
+      "timeDiff_seconds": 0.356
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 3.4072266,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2337.29",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 290.69727,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 502.69727,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 737.69727,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "0928454b-33a7-42d4-ac7f-3613fdd2f13d",
+    "type": "notification",
+    "timestamp": 1778835959201,
+    "time": "2026-05-15 17:05:59",
+    "delayTime": 968.0,
+    "currentLocation": {
+      "position": {
+        "x": "2337.29",
+        "y": "5353.593",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-184.2142005545644",
+        "x": "2337.29",
+        "y": "5353.593"
+      },
+      "mainOrientation": {
+        "angle": "-184.2142005545644",
+        "x": "2337.29",
+        "y": "5353.593"
+      },
+      "time": "2026-05-15 17:05:58",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 3.9667969,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2231.1344",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 185.10132,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 397.10132,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 632.1013,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "ca295bff-b6ed-4d32-b448-6d81bbf946c8",
+    "type": "notification",
+    "timestamp": 1778835960169,
+    "time": "2026-05-15 17:06:00",
+    "delayTime": 1977.0,
+    "currentLocation": {
+      "position": {
+        "x": "2231.1344",
+        "y": "5353.033",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-193.33859449819386",
+        "x": "2231.1344",
+        "y": "5353.033"
+      },
+      "mainOrientation": {
+        "angle": "-193.33859449819386",
+        "x": "2231.1344",
+        "y": "5353.033"
+      },
+      "time": "2026-05-15 17:05:59",
+      "timeDiff_seconds": 0.36
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 12.23877,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2158.2302",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 120.468994,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 332.469,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 567.469,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "f4005dbb-5de4-477a-af05-e14cb5b09b15",
+    "type": "notification",
+    "timestamp": 1778835962146,
+    "time": "2026-05-15 17:06:02",
+    "delayTime": 999.0,
+    "currentLocation": {
+      "position": {
+        "x": "2158.2302",
+        "y": "5344.7609999999995",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-248.56750053988029",
+        "x": "2158.2302",
+        "y": "5344.7609999999995"
+      },
+      "mainOrientation": {
+        "angle": "-248.56750053988029",
+        "x": "2158.2302",
+        "y": "5344.7609999999995"
+      },
+      "time": "2026-05-15 17:06:01",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 11.268066,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2067.0411999999997",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 28.309326,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 240.30933,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 475.30933,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "0b35f779-6a56-476e-8a57-1ec1be2c589c",
+    "type": "notification",
+    "timestamp": 1778835963145,
+    "time": "2026-05-15 17:06:03",
+    "delayTime": 998.0,
+    "currentLocation": {
+      "position": {
+        "x": "2067.0411999999997",
+        "y": "5345.7317",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "68.31997408930226",
+        "x": "2067.0411999999997",
+        "y": "5345.7317"
+      },
+      "mainOrientation": {
+        "angle": "68.31997408930226",
+        "x": "2067.0411999999997",
+        "y": "5345.7317"
+      },
+      "time": "2026-05-15 17:06:02",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 1.2773438,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5305.8613000000005",
+          "z": "F1"
+        },
+        {
+          "distance": 162.13867,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 397.13867,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "20b2ace9-3f0d-4597-b7bb-f3b8e5360866",
+    "type": "notification",
+    "timestamp": 1778835964143,
+    "time": "2026-05-15 17:06:04",
+    "delayTime": 1006.0,
+    "currentLocation": {
+      "position": {
+        "x": "2051.2774",
+        "y": "5305.8613000000005",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "31.811483698448853",
+        "x": "2051.2774",
+        "y": "5305.8613000000005"
+      },
+      "mainOrientation": {
+        "angle": "31.811483698448853",
+        "x": "2051.2774",
+        "y": "5305.8613000000005"
+      },
+      "time": "2026-05-15 17:06:03",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 8.501465,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5177.1656",
+          "z": "F1"
+        },
+        {
+          "distance": 40.666992,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 275.667,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "92ea6bd9-06ce-49cc-9d0f-70badedf63ff",
+    "type": "notification",
+    "timestamp": 1778835965149,
+    "time": "2026-05-15 17:06:05",
+    "delayTime": 1046.0,
+    "currentLocation": {
+      "position": {
+        "x": "2058.5014",
+        "y": "5177.1656",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-2.8220536401457252",
+        "x": "2058.5014",
+        "y": "5177.1656"
+      },
+      "mainOrientation": {
+        "angle": "-2.8220536401457252",
+        "x": "2058.5014",
+        "y": "5177.1656"
+      },
+      "time": "2026-05-15 17:06:04",
+      "timeDiff_seconds": 0.351
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.19189453,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2201.0986",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 84.09326,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "b8dfc2c3-59b1-4995-9ef4-995432539c2c",
+    "type": "notification",
+    "timestamp": 1778835966195,
+    "time": "2026-05-15 17:06:06",
+    "delayTime": 1006.0,
+    "currentLocation": {
+      "position": {
+        "x": "2201.0986",
+        "y": "5144.8081999999995",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "0.8752953593526769",
+        "x": "2201.0986",
+        "y": "5144.8081999999995"
+      },
+      "mainOrientation": {
+        "angle": "0.8752953593526769",
+        "x": "2201.0986",
+        "y": "5144.8081999999995"
+      },
+      "time": "2026-05-15 17:06:05",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 12.580078,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2294.9055000000003",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 22.485596,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "db9022b0-ebc0-41c6-9426-263cf1542c29",
+    "type": "notification",
+    "timestamp": 1778835967201,
+    "time": "2026-05-15 17:06:07",
+    "delayTime": 1006.0,
+    "currentLocation": {
+      "position": {
+        "x": "2294.9055000000003",
+        "y": "5132.42",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "2.079344277418926",
+        "x": "2294.9055000000003",
+        "y": "5132.42"
+      },
+      "mainOrientation": {
+        "angle": "2.079344277418926",
+        "x": "2294.9055000000003",
+        "y": "5132.42"
+      },
+      "time": "2026-05-15 17:06:06",
+      "timeDiff_seconds": 0.356
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 4.92041,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2152.8977999999997",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 137.0227,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "6ac194aa-c8d8-4888-a75b-978ee141510a",
+    "type": "notification",
+    "timestamp": 1778835968207,
+    "time": "2026-05-15 17:06:08",
+    "delayTime": 996.0,
+    "currentLocation": {
+      "position": {
+        "x": "2152.8977999999997",
+        "y": "5140.0795",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-2.4326333373602296",
+        "x": "2152.8977999999997",
+        "y": "5140.0795"
+      },
+      "mainOrientation": {
+        "angle": "-2.4326333373602296",
+        "x": "2152.8977999999997",
+        "y": "5140.0795"
+      },
+      "time": "2026-05-15 17:06:07",
+      "timeDiff_seconds": 0.345
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 2.421875,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2251.5944999999997",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 35.827393,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "bac02981-f2bf-4db3-8243-57981466126b",
+    "type": "notification",
+    "timestamp": 1778835969203,
+    "time": "2026-05-15 17:06:09",
+    "delayTime": 1003.0,
+    "currentLocation": {
+      "position": {
+        "x": "2251.5944999999997",
+        "y": "5142.578",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "1.4770236596116604",
+        "x": "2251.5944999999997",
+        "y": "5142.578"
+      },
+      "mainOrientation": {
+        "angle": "1.4770236596116604",
+        "x": "2251.5944999999997",
+        "y": "5142.578"
+      },
+      "time": "2026-05-15 17:06:08",
+      "timeDiff_seconds": 0.353
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 1.2431641,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2414.945",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 131.18823,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "2188abad-d826-4ea6-ab34-f5644bf4f4cf",
+    "type": "notification",
+    "timestamp": 1778835970206,
+    "time": "2026-05-15 17:06:10",
+    "delayTime": 980.0,
+    "currentLocation": {
+      "position": {
+        "x": "2414.945",
+        "y": "5143.7570000000005",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "4.4100663274272165",
+        "x": "2414.945",
+        "y": "5143.7570000000005"
+      },
+      "mainOrientation": {
+        "angle": "4.4100663274272165",
+        "x": "2414.945",
+        "y": "5143.7570000000005"
+      },
+      "time": "2026-05-15 17:06:09",
+      "timeDiff_seconds": 0.357
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 1.6835938,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2527.3218",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 244.00537,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "adfd2acd-84ca-4d68-896e-3b9ba3a71539",
+    "type": "notification",
+    "timestamp": 1778835971186,
+    "time": "2026-05-15 17:06:11",
+    "delayTime": 1019.0,
+    "currentLocation": {
+      "position": {
+        "x": "2527.3218",
+        "y": "5143.3163",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "4.360492858872547",
+        "x": "2527.3218",
+        "y": "5143.3163"
+      },
+      "mainOrientation": {
+        "angle": "4.360492858872547",
+        "x": "2527.3218",
+        "y": "5143.3163"
+      },
+      "time": "2026-05-15 17:06:10",
+      "timeDiff_seconds": 0.35
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.67578125,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2656.1876",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 371.86328,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "88277516-cbdd-4d7e-a467-35e3227b5676",
+    "type": "notification",
+    "timestamp": 1778835972205,
+    "time": "2026-05-15 17:06:12",
+    "delayTime": 1015.0,
+    "currentLocation": {
+      "position": {
+        "x": "2656.1876",
+        "y": "5144.3240000000005",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "5.229613099068331",
+        "x": "2656.1876",
+        "y": "5144.3240000000005"
+      },
+      "mainOrientation": {
+        "angle": "5.229613099068331",
+        "x": "2656.1876",
+        "y": "5144.3240000000005"
+      },
+      "time": "2026-05-15 17:06:11",
+      "timeDiff_seconds": 0.351
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 1.2729492,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2763.9618",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 480.23486,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "51480d2b-a960-4dc7-8221-f57fd70b8569",
+    "type": "notification",
+    "timestamp": 1778835973220,
+    "time": "2026-05-15 17:06:13",
+    "delayTime": 992.0,
+    "currentLocation": {
+      "position": {
+        "x": "2763.9618",
+        "y": "5143.727",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "5.301222823637261",
+        "x": "2763.9618",
+        "y": "5143.727"
+      },
+      "mainOrientation": {
+        "angle": "5.301222823637261",
+        "x": "2763.9618",
+        "y": "5143.727"
+      },
+      "time": "2026-05-15 17:06:12",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.47753906,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2863.4653",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 578.9429,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "539101ee-2d2f-4f7b-8905-f547af25a57f",
+    "type": "notification",
+    "timestamp": 1778835974212,
+    "time": "2026-05-15 17:06:14",
+    "delayTime": 1000.0,
+    "currentLocation": {
+      "position": {
+        "x": "2863.4653",
+        "y": "5144.5225",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "7.080234252229346",
+        "x": "2863.4653",
+        "y": "5144.5225"
+      },
+      "mainOrientation": {
+        "angle": "7.080234252229346",
+        "x": "2863.4653",
+        "y": "5144.5225"
+      },
+      "time": "2026-05-15 17:06:13",
+      "timeDiff_seconds": 0.356
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.5332031,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2944.9425",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 660.4756,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "f8f3ff1d-4876-4db0-bf95-d424e0058f72",
+    "type": "notification",
+    "timestamp": 1778835975212,
+    "time": "2026-05-15 17:06:15",
+    "delayTime": 1002.0,
+    "currentLocation": {
+      "position": {
+        "x": "2944.9425",
+        "y": "5144.4668",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "14.139138295673334",
+        "x": "2944.9425",
+        "y": "5144.4668"
+      },
+      "mainOrientation": {
+        "angle": "14.139138295673334",
+        "x": "2944.9425",
+        "y": "5144.4668"
+      },
+      "time": "2026-05-15 17:06:14",
+      "timeDiff_seconds": 0.351
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 7.1811523,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3021.3650000000002",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 743.54614,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "0d903ea2-87d6-4e35-a85e-f8a673229721",
+    "type": "notification",
+    "timestamp": 1778835976214,
+    "time": "2026-05-15 17:06:16",
+    "delayTime": 994.0,
+    "currentLocation": {
+      "position": {
+        "x": "3021.3650000000002",
+        "y": "5137.8189999999995",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "21.173429533802604",
+        "x": "3021.3650000000002",
+        "y": "5137.8189999999995"
+      },
+      "mainOrientation": {
+        "angle": "21.173429533802604",
+        "x": "3021.3650000000002",
+        "y": "5137.8189999999995"
+      },
+      "time": "2026-05-15 17:06:15",
+      "timeDiff_seconds": 0.351
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 3.828125,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5166.5348",
+          "z": "F1"
+        },
+        {
+          "distance": 25.362793,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 810.3628,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "ad213e25-05c9-48ae-bedb-b26f0de4cfb0",
+    "type": "notification",
+    "timestamp": 1778835977208,
+    "time": "2026-05-15 17:06:17",
+    "delayTime": 1011.0,
+    "currentLocation": {
+      "position": {
+        "x": "3073.8281",
+        "y": "5166.5348",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "21.507121416616428",
+        "x": "3073.8281",
+        "y": "5166.5348"
+      },
+      "mainOrientation": {
+        "angle": "21.507121416616428",
+        "x": "3073.8281",
+        "y": "5166.5348"
+      },
+      "time": "2026-05-15 17:06:16",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 23.543457,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3141.4427",
+          "y": "5177.0",
+          "z": "F1"
+        },
+        {
+          "distance": 94.986084,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5177.0",
+          "z": "F1"
+        },
+        {
+          "distance": 126.986084,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 911.9861,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "32141075-f6f3-4a5f-90c4-27426755d212",
+    "type": "notification",
+    "timestamp": 1778835978219,
+    "time": "2026-05-15 17:06:18",
+    "delayTime": 995.0,
+    "currentLocation": {
+      "position": {
+        "x": "3141.4427",
+        "y": "5153.4565",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "36.24617550678157",
+        "x": "3141.4427",
+        "y": "5153.4565"
+      },
+      "mainOrientation": {
+        "angle": "36.24617550678157",
+        "x": "3141.4427",
+        "y": "5153.4565"
+      },
+      "time": "2026-05-15 17:06:17",
+      "timeDiff_seconds": 0.351
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 32.391113,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3213.6967",
+          "y": "5177.0",
+          "z": "F1"
+        },
+        {
+          "distance": 176.08789,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5177.0",
+          "z": "F1"
+        },
+        {
+          "distance": 208.08789,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 993.0879,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "229a355c-cdf8-420a-8698-75c1931b8051",
+    "type": "notification",
+    "timestamp": 1778835979214,
+    "time": "2026-05-15 17:06:19",
+    "delayTime": 1013.0,
+    "currentLocation": {
+      "position": {
+        "x": "3213.6967",
+        "y": "5144.6087",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "83.85361990408589",
+        "x": "3213.6967",
+        "y": "5144.6087"
+      },
+      "mainOrientation": {
+        "angle": "83.85361990408589",
+        "x": "3213.6967",
+        "y": "5144.6087"
+      },
+      "time": "2026-05-15 17:06:18",
+      "timeDiff_seconds": 0.348
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.0,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3177.5",
+          "y": "5177.0",
+          "z": "F1"
+        },
+        {
+          "distance": 107.5,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5177.0",
+          "z": "F1"
+        },
+        {
+          "distance": 139.5,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 924.5,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "3403dd02-d0bd-4a08-bc17-022fa9a17f8e",
+    "type": "notification",
+    "timestamp": 1778835980227,
+    "time": "2026-05-15 17:06:20",
+    "delayTime": 1007.0,
+    "currentLocation": {
+      "position": {
+        "x": "3177.5",
+        "y": "5177.0",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-225.57682219711353",
+        "x": "3177.5",
+        "y": "5177.0"
+      },
+      "mainOrientation": {
+        "angle": "-225.57682219711353",
+        "x": "3177.5",
+        "y": "5177.0"
+      },
+      "time": "2026-05-15 17:06:19",
+      "timeDiff_seconds": 0.347
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 22.169922,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3276.7204",
+          "y": "5177.0",
+          "z": "F1"
+        },
+        {
+          "distance": 228.89038,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5177.0",
+          "z": "F1"
+        },
+        {
+          "distance": 260.89038,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1045.8904,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "e60215dc-20ee-4013-a904-985925638d18",
+    "type": "notification",
+    "timestamp": 1778835981234,
+    "time": "2026-05-15 17:06:21",
+    "delayTime": 939.0,
+    "currentLocation": {
+      "position": {
+        "x": "3276.7204",
+        "y": "5154.83",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-191.71379476666561",
+        "x": "3276.7204",
+        "y": "5154.83"
+      },
+      "mainOrientation": {
+        "angle": "-191.71379476666561",
+        "x": "3276.7204",
+        "y": "5154.83"
+      },
+      "time": "2026-05-15 17:06:20",
+      "timeDiff_seconds": 0.349
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 20.629395,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3132.9258",
+          "y": "5177.0",
+          "z": "F1"
+        },
+        {
+          "distance": 83.555176,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5177.0",
+          "z": "F1"
+        },
+        {
+          "distance": 115.555176,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 900.5552,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "31a474cf-5ed2-43c1-8a6d-99ea4e33767b",
+    "type": "notification",
+    "timestamp": 1778835982173,
+    "time": "2026-05-15 17:06:22",
+    "delayTime": 1073.0,
+    "currentLocation": {
+      "position": {
+        "x": "3132.9258",
+        "y": "5156.3705",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-181.20677962997487",
+        "x": "3132.9258",
+        "y": "5156.3705"
+      },
+      "mainOrientation": {
+        "angle": "-181.20677962997487",
+        "x": "3132.9258",
+        "y": "5156.3705"
+      },
+      "time": "2026-05-15 17:06:21",
+      "timeDiff_seconds": 0.349
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 3.9516602,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "4844.554",
+          "z": "F1"
+        },
+        {
+          "distance": 304.39746,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1089.3975,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "77ec77c6-f131-4ae7-8e05-944574cc16db",
+    "type": "notification",
+    "timestamp": 1778835983246,
+    "time": "2026-05-15 17:06:23",
+    "delayTime": 930.0,
+    "currentLocation": {
+      "position": {
+        "x": "3066.0484",
+        "y": "4844.554",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-178.8931862645549",
+        "x": "3066.0484",
+        "y": "4844.554"
+      },
+      "mainOrientation": {
+        "angle": "-178.8931862645549",
+        "x": "3066.0484",
+        "y": "4844.554"
+      },
+      "time": "2026-05-15 17:06:22",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 39.989014,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3133.568495986393",
+          "y": "4671.221750567394",
+          "z": "F1"
+        },
+        {
+          "distance": 103.558,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "4671.0",
+          "z": "F1"
+        },
+        {
+          "distance": 577.558,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1362.558,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "9bc3436b-53db-4e3f-a3d4-ddf8c9f81ddf",
+    "type": "notification",
+    "timestamp": 1778835984176,
+    "time": "2026-05-15 17:06:24",
+    "delayTime": 1054.0,
+    "currentLocation": {
+      "position": {
+        "x": "3133.429",
+        "y": "4711.210599999999",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-182.90515617401198",
+        "x": "3133.429",
+        "y": "4711.210599999999"
+      },
+      "mainOrientation": {
+        "angle": "-182.90515617401198",
+        "x": "3133.429",
+        "y": "4711.210599999999"
+      },
+      "time": "2026-05-15 17:06:23",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 20.247559,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2943.1605999999997",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 147.08691,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 646.0869,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1431.0869,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "edcd8557-55d8-4e41-be35-ba7aac8c453d",
+    "type": "notification",
+    "timestamp": 1778835985230,
+    "time": "2026-05-15 17:06:25",
+    "delayTime": 1001.0,
+    "currentLocation": {
+      "position": {
+        "x": "2943.1605999999997",
+        "y": "4666.2476",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-182.1432317970437",
+        "x": "2943.1605999999997",
+        "y": "4666.2476"
+      },
+      "mainOrientation": {
+        "angle": "-182.1432317970437",
+        "x": "2943.1605999999997",
+        "y": "4666.2476"
+      },
+      "time": "2026-05-15 17:06:24",
+      "timeDiff_seconds": 0.359
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.0,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2866.0",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 204.0,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 454.0,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1239.0,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "f07eb8d8-64d4-4af6-a4ab-2beb1c8c6924",
+    "type": "notification",
+    "timestamp": 1778835986231,
+    "time": "2026-05-15 17:06:26",
+    "delayTime": 976.0,
+    "currentLocation": {
+      "position": {
+        "x": "2866.0",
+        "y": "4895.0",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-181.5515516928471",
+        "x": "2866.0",
+        "y": "4895.0"
+      },
+      "mainOrientation": {
+        "angle": "-181.5515516928471",
+        "x": "2866.0",
+        "y": "4895.0"
+      },
+      "time": "2026-05-15 17:06:25",
+      "timeDiff_seconds": 0.349
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 36.682617,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2699.6876",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 686.3701,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 936.3701,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1171.3701,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "484022fe-bc5e-4b67-8f4d-e7b2304e0b08",
+    "type": "notification",
+    "timestamp": 1778835987207,
+    "time": "2026-05-15 17:06:27",
+    "delayTime": 2027.0,
+    "currentLocation": {
+      "position": {
+        "x": "2699.6876",
+        "y": "4858.3176",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-181.30461637349097",
+        "x": "2699.6876",
+        "y": "4858.3176"
+      },
+      "mainOrientation": {
+        "angle": "-181.30461637349097",
+        "x": "2699.6876",
+        "y": "4858.3176"
+      },
+      "time": "2026-05-15 17:06:26",
+      "timeDiff_seconds": 0.36
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 2.4785156,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2542.1085000000003",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 494.5869,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 744.5869,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 979.5869,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "65c61648-ad10-4e09-9c34-ace395bb5e80",
+    "type": "notification",
+    "timestamp": 1778835989234,
+    "time": "2026-05-15 17:06:29",
+    "delayTime": 996.0,
+    "currentLocation": {
+      "position": {
+        "x": "2542.1085000000003",
+        "y": "4892.5213",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-185.686407016237",
+        "x": "2542.1085000000003",
+        "y": "4892.5213"
+      },
+      "mainOrientation": {
+        "angle": "-185.686407016237",
+        "x": "2542.1085000000003",
+        "y": "4892.5213"
+      },
+      "time": "2026-05-15 17:06:28",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 1.7749023,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2445.2376999999997",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 397.0127,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 647.0127,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 882.0127,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "44fedd14-f8c7-4d08-a828-875df5167a3d",
+    "type": "notification",
+    "timestamp": 1778835990230,
+    "time": "2026-05-15 17:06:30",
+    "delayTime": 986.0,
+    "currentLocation": {
+      "position": {
+        "x": "2445.2376999999997",
+        "y": "4896.7747",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-178.24786044080489",
+        "x": "2445.2376999999997",
+        "y": "4896.7747"
+      },
+      "mainOrientation": {
+        "angle": "-178.24786044080489",
+        "x": "2445.2376999999997",
+        "y": "4896.7747"
+      },
+      "time": "2026-05-15 17:06:29",
+      "timeDiff_seconds": 0.353
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 7.0498047,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2344.8376",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 301.88745,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 551.88745,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 786.88745,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "1df311d5-4c13-4bd3-b8b4-4933e1006532",
+    "type": "notification",
+    "timestamp": 1778835991216,
+    "time": "2026-05-15 17:06:31",
+    "delayTime": 1012.0,
+    "currentLocation": {
+      "position": {
+        "x": "2344.8376",
+        "y": "4902.05",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-176.2837623909166",
+        "x": "2344.8376",
+        "y": "4902.05"
+      },
+      "mainOrientation": {
+        "angle": "-176.2837623909166",
+        "x": "2344.8376",
+        "y": "4902.05"
+      },
+      "time": "2026-05-15 17:06:30",
+      "timeDiff_seconds": 0.347
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 2.2973633,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2254.5321999999996",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 206.82959,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 456.8296,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 691.8296,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "3ca9a880-fdc7-4759-b4c8-bcf5e260bab5",
+    "type": "notification",
+    "timestamp": 1778835992228,
+    "time": "2026-05-15 17:06:32",
+    "delayTime": 1001.0,
+    "currentLocation": {
+      "position": {
+        "x": "2254.5321999999996",
+        "y": "4897.2973",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-179.83086766314446",
+        "x": "2254.5321999999996",
+        "y": "4897.2973"
+      },
+      "mainOrientation": {
+        "angle": "-179.83086766314446",
+        "x": "2254.5321999999996",
+        "y": "4897.2973"
+      },
+      "time": "2026-05-15 17:06:31",
+      "timeDiff_seconds": 0.353
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 2.956543,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2165.8498999999997",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 118.8064,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 368.8064,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 603.8064,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "0eb5d7de-de0d-4756-bd3a-2e09b4182fc5",
+    "type": "notification",
+    "timestamp": 1778835993229,
+    "time": "2026-05-15 17:06:33",
+    "delayTime": 1001.0,
+    "currentLocation": {
+      "position": {
+        "x": "2165.8498999999997",
+        "y": "4897.9565",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-200.14964005292887",
+        "x": "2165.8498999999997",
+        "y": "4897.9565"
+      },
+      "mainOrientation": {
+        "angle": "-200.14964005292887",
+        "x": "2165.8498999999997",
+        "y": "4897.9565"
+      },
+      "time": "2026-05-15 17:06:32",
+      "timeDiff_seconds": 0.353
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 2.2993164,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2072.3082999999997",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 24.607666,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 274.60767,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 509.60767,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "890ae58b-9a54-4c9c-93b1-9f2d3bbf7859",
+    "type": "notification",
+    "timestamp": 1778835994230,
+    "time": "2026-05-15 17:06:34",
+    "delayTime": 1002.0,
+    "currentLocation": {
+      "position": {
+        "x": "2072.3082999999997",
+        "y": "4892.7006",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-220.73752456007372",
+        "x": "2072.3082999999997",
+        "y": "4892.7006"
+      },
+      "mainOrientation": {
+        "angle": "-220.73752456007372",
+        "x": "2072.3082999999997",
+        "y": "4892.7006"
+      },
+      "time": "2026-05-15 17:06:33",
+      "timeDiff_seconds": 0.356
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 25.885742,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2141.2212",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 117.10693,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 616.10693,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 851.10693,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "a47b0f77-4a64-4541-8ec2-32c74800c9d9",
+    "type": "notification",
+    "timestamp": 1778835995232,
+    "time": "2026-05-15 17:06:35",
+    "delayTime": 991.0,
+    "currentLocation": {
+      "position": {
+        "x": "2141.2212",
+        "y": "4671.8857",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-235.71834500758993",
+        "x": "2141.2212",
+        "y": "4671.8857"
+      },
+      "mainOrientation": {
+        "angle": "-235.71834500758993",
+        "x": "2141.2212",
+        "y": "4671.8857"
+      },
+      "time": "2026-05-15 17:06:34",
+      "timeDiff_seconds": 0.358
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 5.444824,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2061.8652",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 17.310059,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 516.31006,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 751.31006,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "dca90ef5-9b35-483b-9ba8-305a0df543df",
+    "type": "notification",
+    "timestamp": 1778835996223,
+    "time": "2026-05-15 17:06:36",
+    "delayTime": 994.0,
+    "currentLocation": {
+      "position": {
+        "x": "2061.8652",
+        "y": "4651.445",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-238.35594731203705",
+        "x": "2061.8652",
+        "y": "4651.445"
+      },
+      "mainOrientation": {
+        "angle": "-238.35594731203705",
+        "x": "2061.8652",
+        "y": "4651.445"
+      },
+      "time": "2026-05-15 17:06:35",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.41357422,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2164.1638000000003",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 114.57739,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 613.5774,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 848.5774,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "78f5a56c-c89a-40d9-b58b-a34ca5bfc5f6",
+    "type": "notification",
+    "timestamp": 1778835997217,
+    "time": "2026-05-15 17:06:37",
+    "delayTime": 989.0,
+    "currentLocation": {
+      "position": {
+        "x": "2164.1638000000003",
+        "y": "4646.4138",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-238.35594731203705",
+        "x": "2164.1638000000003",
+        "y": "4646.4138"
+      },
+      "mainOrientation": {
+        "angle": "-238.35594731203705",
+        "x": "2164.1638000000003",
+        "y": "4646.4138"
+      },
+      "time": "2026-05-15 17:06:36",
+      "timeDiff_seconds": 0.358
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.62597656,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2092.9230000000002",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 43.549072,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 542.5491,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 777.5491,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "5ec57dc5-b870-49a6-a431-dae851db7243",
+    "type": "notification",
+    "timestamp": 1778835998206,
+    "time": "2026-05-15 17:06:38",
+    "delayTime": 978.0,
+    "currentLocation": {
+      "position": {
+        "x": "2092.9230000000002",
+        "y": "4645.374000000001",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-238.35594731203705",
+        "x": "2092.9230000000002",
+        "y": "4645.374000000001"
+      },
+      "mainOrientation": {
+        "angle": "-238.35594731203705",
+        "x": "2092.9230000000002",
+        "y": "4645.374000000001"
+      },
+      "time": "2026-05-15 17:06:37",
+      "timeDiff_seconds": 0.36
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.5751953,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2064.4772",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 15.05249,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 514.0525,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 749.0525,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "4ee1c2aa-b053-492f-a067-bbaada474dcd",
+    "type": "notification",
+    "timestamp": 1778835999184,
+    "time": "2026-05-15 17:06:39",
+    "delayTime": 1010.0,
+    "currentLocation": {
+      "position": {
+        "x": "2064.4772",
+        "y": "4645.4247000000005",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-238.35594731203705",
+        "x": "2064.4772",
+        "y": "4645.4247000000005"
+      },
+      "mainOrientation": {
+        "angle": "-238.35594731203705",
+        "x": "2064.4772",
+        "y": "4645.4247000000005"
+      },
+      "time": "2026-05-15 17:06:38",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.34521484,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2054.0476000000003",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 4.3928223,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 503.39282,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 738.3928,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "fe03d42f-6d40-499b-9b3a-415d22eef871",
+    "type": "notification",
+    "timestamp": 1778836000194,
+    "time": "2026-05-15 17:06:40",
+    "delayTime": 1040.0,
+    "currentLocation": {
+      "position": {
+        "x": "2054.0476000000003",
+        "y": "4645.655",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-238.35594731203705",
+        "x": "2054.0476000000003",
+        "y": "4645.655"
+      },
+      "mainOrientation": {
+        "angle": "-238.35594731203705",
+        "x": "2054.0476000000003",
+        "y": "4645.655"
+      },
+      "time": "2026-05-15 17:06:39",
+      "timeDiff_seconds": 0.353
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.16357422,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.6548",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 0.8183594,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 499.81836,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 734.81836,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "a2a23ed1-0e40-4bd9-8042-03f8922abcf9",
+    "type": "notification",
+    "timestamp": 1778836001234,
+    "time": "2026-05-15 17:06:41",
+    "delayTime": 3959.0,
+    "currentLocation": {
+      "position": {
+        "x": "2050.6548",
+        "y": "4645.8363",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-270.0",
+        "x": "2050.6548",
+        "y": "4645.8363"
+      },
+      "mainOrientation": {
+        "angle": "-270.0",
+        "x": "2050.6548",
+        "y": "4645.8363"
+      },
+      "time": "2026-05-15 17:06:40",
+      "timeDiff_seconds": 0.347
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.23852539,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4793.509300000001",
+          "z": "F1"
+        },
+        {
+          "distance": 351.72925,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 586.72925,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "e0ec90e9-cbbf-436c-8341-dd8fbd58e0f0",
+    "type": "notification",
+    "timestamp": 1778836005193,
+    "time": "2026-05-15 17:06:45",
+    "delayTime": 999.0,
+    "currentLocation": {
+      "position": {
+        "x": "2049.7614",
+        "y": "4793.509300000001",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "88.19730102957774",
+        "x": "2049.7614",
+        "y": "4793.509300000001"
+      },
+      "mainOrientation": {
+        "angle": "88.19730102957774",
+        "x": "2049.7614",
+        "y": "4793.509300000001"
+      },
+      "time": "2026-05-15 17:06:44",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.23461914,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4704.263",
+          "z": "F1"
+        },
+        {
+          "distance": 440.97144,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 675.97144,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "2dc447ef-6be6-4f79-8b65-e8f6de2899ea",
+    "type": "notification",
+    "timestamp": 1778836006192,
+    "time": "2026-05-15 17:06:46",
+    "delayTime": 1032.0,
+    "currentLocation": {
+      "position": {
+        "x": "2049.7654",
+        "y": "4704.263",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "71.16734442110294",
+        "x": "2049.7654",
+        "y": "4704.263"
+      },
+      "mainOrientation": {
+        "angle": "71.16734442110294",
+        "x": "2049.7654",
+        "y": "4704.263"
+      },
+      "time": "2026-05-15 17:06:45",
+      "timeDiff_seconds": 0.357
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 4.0722656,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4806.5853",
+          "z": "F1"
+        },
+        {
+          "distance": 342.48682,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 577.4868,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "f3acbb48-68b6-4e43-9d14-1c14d5d70b4f",
+    "type": "notification",
+    "timestamp": 1778836007224,
+    "time": "2026-05-15 17:06:47",
+    "delayTime": 1018.0,
+    "currentLocation": {
+      "position": {
+        "x": "2054.0722",
+        "y": "4806.5853",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "30.91548564636743",
+        "x": "2054.0722",
+        "y": "4806.5853"
+      },
+      "mainOrientation": {
+        "angle": "30.91548564636743",
+        "x": "2054.0722",
+        "y": "4806.5853"
+      },
+      "time": "2026-05-15 17:06:46",
+      "timeDiff_seconds": 0.353
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 13.069092,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4764.4985",
+          "z": "F1"
+        },
+        {
+          "distance": 393.57056,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 628.57056,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "8ed94e94-852a-4b2a-8d9e-f7b1840fb075",
+    "type": "notification",
+    "timestamp": 1778836008242,
+    "time": "2026-05-15 17:06:48",
+    "delayTime": 1017.0,
+    "currentLocation": {
+      "position": {
+        "x": "2063.0692",
+        "y": "4764.4985",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-3.9209832665794835",
+        "x": "2063.0692",
+        "y": "4764.4985"
+      },
+      "mainOrientation": {
+        "angle": "-3.9209832665794835",
+        "x": "2063.0692",
+        "y": "4764.4985"
+      },
+      "time": "2026-05-15 17:06:47",
+      "timeDiff_seconds": 0.36
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 42.09912,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2215.5277",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 207.62671,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 457.6267,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 692.6267,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "7d14e795-f2a7-4670-b8d6-4ca4c02920e0",
+    "type": "notification",
+    "timestamp": 1778836009259,
+    "time": "2026-05-15 17:06:49",
+    "delayTime": 986.0,
+    "currentLocation": {
+      "position": {
+        "x": "2215.5277",
+        "y": "4852.9007",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-15.99378102708161",
+        "x": "2215.5277",
+        "y": "4852.9007"
+      },
+      "mainOrientation": {
+        "angle": "-15.99378102708161",
+        "x": "2215.5277",
+        "y": "4852.9007"
+      },
+      "time": "2026-05-15 17:06:48",
+      "timeDiff_seconds": 0.364
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 15.375488,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2144.4506",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 109.82617,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 359.82617,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 594.8262,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "288de482-f4f5-47ec-a362-32ba93c98706",
+    "type": "notification",
+    "timestamp": 1778836010245,
+    "time": "2026-05-15 17:06:50",
+    "delayTime": 1013.0,
+    "currentLocation": {
+      "position": {
+        "x": "2144.4506",
+        "y": "4879.624599999999",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "1.4864527900184186",
+        "x": "2144.4506",
+        "y": "4879.624599999999"
+      },
+      "mainOrientation": {
+        "angle": "1.4864527900184186",
+        "x": "2144.4506",
+        "y": "4879.624599999999"
+      },
+      "time": "2026-05-15 17:06:49",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 41.25586,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2313.4605",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 304.7163,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 554.7163,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 789.7163,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "573bf672-cccf-4f0b-a622-5efd627bbd24",
+    "type": "notification",
+    "timestamp": 1778836011258,
+    "time": "2026-05-15 17:06:51",
+    "delayTime": 1000.0,
+    "currentLocation": {
+      "position": {
+        "x": "2313.4605",
+        "y": "4853.744",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "2.0424193972476417",
+        "x": "2313.4605",
+        "y": "4853.744"
+      },
+      "mainOrientation": {
+        "angle": "2.0424193972476417",
+        "x": "2313.4605",
+        "y": "4853.744"
+      },
+      "time": "2026-05-15 17:06:50",
+      "timeDiff_seconds": 0.363
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 38.854004,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2493.9728",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 482.8269,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 732.8269,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 967.8269,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "69535372-10d9-4e60-82ac-5399e6a92446",
+    "type": "notification",
+    "timestamp": 1778836012258,
+    "time": "2026-05-15 17:06:52",
+    "delayTime": 979.0,
+    "currentLocation": {
+      "position": {
+        "x": "2493.9728",
+        "y": "4856.146",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-1.486078703128726",
+        "x": "2493.9728",
+        "y": "4856.146"
+      },
+      "mainOrientation": {
+        "angle": "-1.486078703128726",
+        "x": "2493.9728",
+        "y": "4856.146"
+      },
+      "time": "2026-05-15 17:06:51",
+      "timeDiff_seconds": 0.357
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 36.736816,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2610.9516",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 597.6885,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4895.0",
+          "z": "F1"
+        },
+        {
+          "distance": 847.6885,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1082.6885,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "33925a5b-6adc-4e81-8639-cc025343b6a1",
+    "type": "notification",
+    "timestamp": 1778836013237,
+    "time": "2026-05-15 17:06:53",
+    "delayTime": 1012.0,
+    "currentLocation": {
+      "position": {
+        "x": "2610.9516",
+        "y": "4858.2634",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-0.2302013411337498",
+        "x": "2610.9516",
+        "y": "4858.2634"
+      },
+      "mainOrientation": {
+        "angle": "-0.2302013411337498",
+        "x": "2610.9516",
+        "y": "4858.2634"
+      },
+      "time": "2026-05-15 17:06:52",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 9.220703,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2438.5135999999998",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 397.73438,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 896.7344,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1131.7344,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "ebf2fbad-c833-454f-8148-b6ef6f162a4f",
+    "type": "notification",
+    "timestamp": 1778836014249,
+    "time": "2026-05-15 17:06:54",
+    "delayTime": 1012.0,
+    "currentLocation": {
+      "position": {
+        "x": "2438.5135999999998",
+        "y": "4655.2208",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "1.8019187120527533",
+        "x": "2438.5135999999998",
+        "y": "4655.2208"
+      },
+      "mainOrientation": {
+        "angle": "1.8019187120527533",
+        "x": "2438.5135999999998",
+        "y": "4655.2208"
+      },
+      "time": "2026-05-15 17:06:53",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 3.0732422,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2532.9958",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 486.0691,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 985.0691,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1220.0691,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "f0d79ae8-dd5f-4ff4-a780-f61cc38842f9",
+    "type": "notification",
+    "timestamp": 1778836015261,
+    "time": "2026-05-15 17:06:55",
+    "delayTime": 2004.0,
+    "currentLocation": {
+      "position": {
+        "x": "2532.9958",
+        "y": "4649.073",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-0.2589428074398512",
+        "x": "2532.9958",
+        "y": "4649.073"
+      },
+      "mainOrientation": {
+        "angle": "-0.2589428074398512",
+        "x": "2532.9958",
+        "y": "4649.073"
+      },
+      "time": "2026-05-15 17:06:54",
+      "timeDiff_seconds": 0.364
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.15039062,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2766.6609000000003",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 716.8113,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1215.8113,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1450.8113,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "f480aa76-c469-4204-a099-fcfb3ae2b062",
+    "type": "notification",
+    "timestamp": 1778836017265,
+    "time": "2026-05-15 17:06:57",
+    "delayTime": 993.0,
+    "currentLocation": {
+      "position": {
+        "x": "2766.6609000000003",
+        "y": "4646.1506",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "7.089548249214076",
+        "x": "2766.6609000000003",
+        "y": "4646.1506"
+      },
+      "mainOrientation": {
+        "angle": "7.089548249214076",
+        "x": "2766.6609000000003",
+        "y": "4646.1506"
+      },
+      "time": "2026-05-15 17:06:56",
+      "timeDiff_seconds": 0.358
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 2.993164,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2876.3546",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 196.63867,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 695.6387,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1480.6387,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "93fddff5-5d16-4b9e-b966-f4005d89e3b6",
+    "type": "notification",
+    "timestamp": 1778836018258,
+    "time": "2026-05-15 17:06:58",
+    "delayTime": 991.0,
+    "currentLocation": {
+      "position": {
+        "x": "2876.3546",
+        "y": "4648.993",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "38.64268831744266",
+        "x": "2876.3546",
+        "y": "4648.993"
+      },
+      "mainOrientation": {
+        "angle": "38.64268831744266",
+        "x": "2876.3546",
+        "y": "4648.993"
+      },
+      "time": "2026-05-15 17:06:57",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.2055664,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2751.8360000000002",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 702.0415,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1201.0415,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1436.0415,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "7515ed1e-1f1b-465a-af2e-bc5217e69771",
+    "type": "notification",
+    "timestamp": 1778836019249,
+    "time": "2026-05-15 17:06:59",
+    "delayTime": 1020.0,
+    "currentLocation": {
+      "position": {
+        "x": "2751.8360000000002",
+        "y": "4645.7943",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "76.79249796469398",
+        "x": "2751.8360000000002",
+        "y": "4645.7943"
+      },
+      "mainOrientation": {
+        "angle": "76.79249796469398",
+        "x": "2751.8360000000002",
+        "y": "4645.7943"
+      },
+      "time": "2026-05-15 17:06:58",
+      "timeDiff_seconds": 0.356
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 2.3671875,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2890.5860000000002",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 181.78125,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 904.78125,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1689.7812,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "f277e598-4eb0-4141-9c3d-72369b1ec8e8",
+    "type": "notification",
+    "timestamp": 1778836020269,
+    "time": "2026-05-15 17:07:00",
+    "delayTime": 1001.0,
+    "currentLocation": {
+      "position": {
+        "x": "2890.5860000000002",
+        "y": "4419.633000000001",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-246.29266658877125",
+        "x": "2890.5860000000002",
+        "y": "4419.633000000001"
+      },
+      "mainOrientation": {
+        "angle": "-246.29266658877125",
+        "x": "2890.5860000000002",
+        "y": "4419.633000000001"
+      },
+      "time": "2026-05-15 17:06:59",
+      "timeDiff_seconds": 0.36
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 16.416992,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2963.1119",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 123.305176,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 846.3052,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1631.3052,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "0befdb39-0846-48d6-9e80-00890bcb2b91",
+    "type": "notification",
+    "timestamp": 1778836021270,
+    "time": "2026-05-15 17:07:01",
+    "delayTime": 961.0,
+    "currentLocation": {
+      "position": {
+        "x": "2963.1119000000003",
+        "y": "4405.5832",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-208.11409355855932",
+        "x": "2963.1119000000003",
+        "y": "4405.5832"
+      },
+      "mainOrientation": {
+        "angle": "-208.11409355855932",
+        "x": "2963.1119000000003",
+        "y": "4405.5832"
+      },
+      "time": "2026-05-15 17:07:00",
+      "timeDiff_seconds": 0.359
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 30.964355,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "4555.924",
+          "z": "F1"
+        },
+        {
+          "distance": 620.0405,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1405.0405,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "9300d338-2e30-41e1-bb94-fd17f24f7d08",
+    "type": "notification",
+    "timestamp": 1778836022231,
+    "time": "2026-05-15 17:07:02",
+    "delayTime": 996.0,
+    "currentLocation": {
+      "position": {
+        "x": "3039.0356",
+        "y": "4555.924",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-188.55704366972856",
+        "x": "3039.0356",
+        "y": "4555.924"
+      },
+      "mainOrientation": {
+        "angle": "-188.55704366972856",
+        "x": "3039.0356",
+        "y": "4555.924"
+      },
+      "time": "2026-05-15 17:07:01",
+      "timeDiff_seconds": 0.357
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 7.1503906,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2947.505",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 129.64551,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 852.6455,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1637.6455,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "6ec491bf-7722-4022-b110-3e2717b2beed",
+    "type": "notification",
+    "timestamp": 1778836023227,
+    "time": "2026-05-15 17:07:03",
+    "delayTime": 1005.0,
+    "currentLocation": {
+      "position": {
+        "x": "2947.505",
+        "y": "4429.1504",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-175.15906775365812",
+        "x": "2947.505",
+        "y": "4429.1504"
+      },
+      "mainOrientation": {
+        "angle": "-175.15906775365812",
+        "x": "2947.505",
+        "y": "4429.1504"
+      },
+      "time": "2026-05-15 17:07:02",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 14.609375,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2859.0118",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 225.59766,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 948.59766,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1733.5977,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "8550e210-7e24-4c10-8c5b-fcda50f62aad",
+    "type": "notification",
+    "timestamp": 1778836024232,
+    "time": "2026-05-15 17:07:04",
+    "delayTime": 962.0,
+    "currentLocation": {
+      "position": {
+        "x": "2859.0118",
+        "y": "4407.3906",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-177.0337034229213",
+        "x": "2859.0118",
+        "y": "4407.3906"
+      },
+      "mainOrientation": {
+        "angle": "-177.0337034229213",
+        "x": "2859.0118",
+        "y": "4407.3906"
+      },
+      "time": "2026-05-15 17:07:03",
+      "timeDiff_seconds": 0.362
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 6.584961,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2977.2172999999993",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 99.367676,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 822.3677,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "3070.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1607.3677,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "3ab0effb-45cd-4c31-8298-39d6bd3538fc",
+    "type": "notification",
+    "timestamp": 1778836025194,
+    "time": "2026-05-15 17:07:05",
+    "delayTime": 1031.0,
+    "currentLocation": {
+      "position": {
+        "x": "2977.2173",
+        "y": "4415.415",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-181.2199166667129",
+        "x": "2977.2173",
+        "y": "4415.415"
+      },
+      "mainOrientation": {
+        "angle": "-181.2199166667129",
+        "x": "2977.2173",
+        "y": "4415.415"
+      },
+      "time": "2026-05-15 17:07:04",
+      "timeDiff_seconds": 0.353
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 4.301758,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2742.875",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 697.17676,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1420.1768,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1655.1768,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "0b25e095-9fe6-4d04-958b-8e980212e32e",
+    "type": "notification",
+    "timestamp": 1778836026225,
+    "time": "2026-05-15 17:07:06",
+    "delayTime": 1000.0,
+    "currentLocation": {
+      "position": {
+        "x": "2742.875",
+        "y": "4417.698",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-184.19916537193674",
+        "x": "2742.875",
+        "y": "4417.698"
+      },
+      "mainOrientation": {
+        "angle": "-184.19916537193674",
+        "x": "2742.875",
+        "y": "4417.698"
+      },
+      "time": "2026-05-15 17:07:05",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 2.8393555,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2526.3803",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 479.21973,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1202.2197,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1437.2197,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "e90b2201-b93d-472a-af09-8e0bc7384673",
+    "type": "notification",
+    "timestamp": 1778836027225,
+    "time": "2026-05-15 17:07:07",
+    "delayTime": 1053.0,
+    "currentLocation": {
+      "position": {
+        "x": "2526.3803",
+        "y": "4419.1605",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-186.22711485874825",
+        "x": "2526.3803",
+        "y": "4419.1605"
+      },
+      "mainOrientation": {
+        "angle": "-186.22711485874825",
+        "x": "2526.3803",
+        "y": "4419.1605"
+      },
+      "time": "2026-05-15 17:07:06",
+      "timeDiff_seconds": 0.356
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 5.54541,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2412.8233",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 368.36865,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1091.3687,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1326.3687,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "15fa5810-e2d6-4e04-8ce5-9853d994f9fa",
+    "type": "notification",
+    "timestamp": 1778836028278,
+    "time": "2026-05-15 17:07:08",
+    "delayTime": 950.0,
+    "currentLocation": {
+      "position": {
+        "x": "2412.8233",
+        "y": "4416.4547",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-184.8087190290505",
+        "x": "2412.8233",
+        "y": "4416.4547"
+      },
+      "mainOrientation": {
+        "angle": "-184.8087190290505",
+        "x": "2412.8233",
+        "y": "4416.4547"
+      },
+      "time": "2026-05-15 17:07:07",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 1.921875,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2270.0438",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 221.96558,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 944.9656,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1179.9656,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "68fc2681-ead8-41bc-ac7b-1fa7479c3844",
+    "type": "notification",
+    "timestamp": 1778836029228,
+    "time": "2026-05-15 17:07:09",
+    "delayTime": 999.0,
+    "currentLocation": {
+      "position": {
+        "x": "2270.0438",
+        "y": "4420.0783",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-182.8684287355493",
+        "x": "2270.0438",
+        "y": "4420.0783"
+      },
+      "mainOrientation": {
+        "angle": "-182.8684287355493",
+        "x": "2270.0438",
+        "y": "4420.0783"
+      },
+      "time": "2026-05-15 17:07:08",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 1.7241211,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2177.6672000000003",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 129.39136,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 852.39136,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1087.3914,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "cc193733-0aef-4aee-9943-eccdc3083b86",
+    "type": "notification",
+    "timestamp": 1778836030227,
+    "time": "2026-05-15 17:07:10",
+    "delayTime": 999.0,
+    "currentLocation": {
+      "position": {
+        "x": "2177.6672000000003",
+        "y": "4420.276",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-185.44329135297212",
+        "x": "2177.6672000000003",
+        "y": "4420.276"
+      },
+      "mainOrientation": {
+        "angle": "-185.44329135297212",
+        "x": "2177.6672000000003",
+        "y": "4420.276"
+      },
+      "time": "2026-05-15 17:07:09",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 1.7060547,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2085.9335",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 37.63965,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 760.63965,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 995.63965,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "94dffd78-24b3-485f-a4f4-8619ef9ee13b",
+    "type": "notification",
+    "timestamp": 1778836031226,
+    "time": "2026-05-15 17:07:11",
+    "delayTime": 1000.0,
+    "currentLocation": {
+      "position": {
+        "x": "2085.9335",
+        "y": "4420.294",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-190.58256422556866",
+        "x": "2085.9335",
+        "y": "4420.294"
+      },
+      "mainOrientation": {
+        "angle": "-190.58256422556866",
+        "x": "2085.9335",
+        "y": "4420.294"
+      },
+      "time": "2026-05-15 17:07:10",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.8569336,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2036.2776000000001",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 14.579346,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 737.57935,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 972.57935,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "963d4c18-3f44-4a98-aae4-184766bab4e2",
+    "type": "notification",
+    "timestamp": 1778836032226,
+    "time": "2026-05-15 17:07:12",
+    "delayTime": 1000.0,
+    "currentLocation": {
+      "position": {
+        "x": "2036.2776000000001",
+        "y": "4421.1433",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-176.4483305319879",
+        "x": "2036.2776000000001",
+        "y": "4421.1433"
+      },
+      "mainOrientation": {
+        "angle": "-176.4483305319879",
+        "x": "2036.2776000000001",
+        "y": "4421.1433"
+      },
+      "time": "2026-05-15 17:07:11",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 1.0087891,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "1939.721",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 111.28784,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 834.28784,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1069.2878,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "6cf2ee08-25d4-45bc-8cf9-64dad13fca50",
+    "type": "notification",
+    "timestamp": 1778836033226,
+    "time": "2026-05-15 17:07:13",
+    "delayTime": 998.0,
+    "currentLocation": {
+      "position": {
+        "x": "1939.721",
+        "y": "4420.991",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-145.64236031201543",
+        "x": "1939.721",
+        "y": "4420.991"
+      },
+      "mainOrientation": {
+        "angle": "-145.64236031201543",
+        "x": "1939.721",
+        "y": "4420.991"
+      },
+      "time": "2026-05-15 17:07:12",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 6.6347656,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "1846.467",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 210.16772,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 933.1677,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1168.1677,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "d6480662-40f6-49f2-9b2b-ee15f19346fb",
+    "type": "notification",
+    "timestamp": 1778836034224,
+    "time": "2026-05-15 17:07:14",
+    "delayTime": 1057.0,
+    "currentLocation": {
+      "position": {
+        "x": "1846.467",
+        "y": "4428.635",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-120.81730748408458",
+        "x": "1846.467",
+        "y": "4428.635"
+      },
+      "mainOrientation": {
+        "angle": "-120.81730748408458",
+        "x": "1846.467",
+        "y": "4428.635"
+      },
+      "time": "2026-05-15 17:07:13",
+      "timeDiff_seconds": 0.354
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 16.490234,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "1747.4153999999999",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 319.07483,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4422.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1042.0748,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1277.0748,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "f0d6e895-b655-4a79-83b5-c8b66247beef",
+    "type": "notification",
+    "timestamp": 1778836035281,
+    "time": "2026-05-15 17:07:15",
+    "delayTime": 971.0,
+    "currentLocation": {
+      "position": {
+        "x": "1747.4153999999999",
+        "y": "4438.49",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-101.52665529036119",
+        "x": "1747.4153999999999",
+        "y": "4438.49"
+      },
+      "mainOrientation": {
+        "angle": "-101.52665529036119",
+        "x": "1747.4153999999999",
+        "y": "4438.49"
+      },
+      "time": "2026-05-15 17:07:14",
+      "timeDiff_seconds": 0.359
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 28.447266,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "1983.5902999999998",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 94.85693,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 593.85693,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 828.85693,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "3d7693b2-1be5-49f0-945f-51b654fb16bc",
+    "type": "notification",
+    "timestamp": 1778836036252,
+    "time": "2026-05-15 17:07:16",
+    "delayTime": 1022.0,
+    "currentLocation": {
+      "position": {
+        "x": "1983.5902999999998",
+        "y": "4617.5526",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-88.50032228289236",
+        "x": "1983.5902999999998",
+        "y": "4617.5526"
+      },
+      "mainOrientation": {
+        "angle": "-88.50032228289236",
+        "x": "1983.5902999999998",
+        "y": "4617.5526"
+      },
+      "time": "2026-05-15 17:07:15",
+      "timeDiff_seconds": 0.352
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 22.08789,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "1916.033",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 156.05493,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4646.0",
+          "z": "F1"
+        },
+        {
+          "distance": 655.05493,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 890.05493,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "134354ca-b94e-4c9c-a21b-b0bef856ecf8",
+    "type": "notification",
+    "timestamp": 1778836037274,
+    "time": "2026-05-15 17:07:17",
+    "delayTime": 1014.0,
+    "currentLocation": {
+      "position": {
+        "x": "1916.033",
+        "y": "4668.0878",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-87.79352580068895",
+        "x": "1916.033",
+        "y": "4668.0878"
+      },
+      "mainOrientation": {
+        "angle": "-87.79352580068895",
+        "x": "1916.033",
+        "y": "4668.0878"
+      },
+      "time": "2026-05-15 17:07:16",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.0,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4770.5",
+          "z": "F1"
+        },
+        {
+          "distance": 374.5,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 609.5,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "28f6fc35-5b37-4db6-81af-3ddec7c4dcce",
+    "type": "notification",
+    "timestamp": 1778836038288,
+    "time": "2026-05-15 17:07:18",
+    "delayTime": 962.0,
+    "currentLocation": {
+      "position": {
+        "x": "2050.0",
+        "y": "4770.5",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-83.42827272529169",
+        "x": "2050.0",
+        "y": "4770.5"
+      },
+      "mainOrientation": {
+        "angle": "-83.42827272529169",
+        "x": "2050.0",
+        "y": "4770.5"
+      },
+      "time": "2026-05-15 17:07:17",
+      "timeDiff_seconds": 0.37
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 13.878418,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "4880.134",
+          "z": "F1"
+        },
+        {
+          "distance": 278.74463,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 513.7446,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "855f3903-bf9a-4a56-a6cf-21c82f70aa3e",
+    "type": "notification",
+    "timestamp": 1778836039250,
+    "time": "2026-05-15 17:07:19",
+    "delayTime": 974.0,
+    "currentLocation": {
+      "position": {
+        "x": "2036.1216",
+        "y": "4880.134",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-84.01090195966286",
+        "x": "2036.1216",
+        "y": "4880.134"
+      },
+      "mainOrientation": {
+        "angle": "-84.01090195966286",
+        "x": "2036.1216",
+        "y": "4880.134"
+      },
+      "time": "2026-05-15 17:07:18",
+      "timeDiff_seconds": 0.353
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 5.770508,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5081.03",
+          "z": "F1"
+        },
+        {
+          "distance": 69.74072,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 304.74072,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "32aa8455-a6b6-4466-8fb0-38b8c9feac5b",
+    "type": "notification",
+    "timestamp": 1778836040224,
+    "time": "2026-05-15 17:07:20",
+    "delayTime": 1012.0,
+    "currentLocation": {
+      "position": {
+        "x": "2044.2295000000001",
+        "y": "5081.03",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-88.99262221044751",
+        "x": "2044.2295000000001",
+        "y": "5081.03"
+      },
+      "mainOrientation": {
+        "angle": "-88.99262221044751",
+        "x": "2044.2295000000001",
+        "y": "5081.03"
+      },
+      "time": "2026-05-15 17:07:19",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 3.6877441,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5285.7838",
+          "z": "F1"
+        },
+        {
+          "distance": 144.47144,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 379.47144,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "12698260-890c-434c-975d-d5f4f581aa01",
+    "type": "notification",
+    "timestamp": 1778836041236,
+    "time": "2026-05-15 17:07:21",
+    "delayTime": 2019.0,
+    "currentLocation": {
+      "position": {
+        "x": "2046.3123",
+        "y": "5285.7838",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-90.71287785679156",
+        "x": "2046.3123",
+        "y": "5285.7838"
+      },
+      "mainOrientation": {
+        "angle": "-90.71287785679156",
+        "x": "2046.3123",
+        "y": "5285.7838"
+      },
+      "time": "2026-05-15 17:07:20",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 2.571289,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5343.241",
+          "z": "F1"
+        },
+        {
+          "distance": 200.8125,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 435.8125,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "95a7c455-bcea-4aea-b11b-be7ae963a1cd",
+    "type": "notification",
+    "timestamp": 1778836043255,
+    "time": "2026-05-15 17:07:23",
+    "delayTime": 1000.0,
+    "currentLocation": {
+      "position": {
+        "x": "2047.4287",
+        "y": "5343.241",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-79.73030513414962",
+        "x": "2047.4287",
+        "y": "5343.241"
+      },
+      "mainOrientation": {
+        "angle": "-79.73030513414962",
+        "x": "2047.4287",
+        "y": "5343.241"
+      },
+      "time": "2026-05-15 17:07:22",
+      "timeDiff_seconds": 0.356
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 1.2600098,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5381.1943",
+          "z": "F1"
+        },
+        {
+          "distance": 237.45435,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 472.45435,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "0a988ee4-9046-4480-b68f-5d5cece6a70a",
+    "type": "notification",
+    "timestamp": 1778836044255,
+    "time": "2026-05-15 17:07:24",
+    "delayTime": 1010.0,
+    "currentLocation": {
+      "position": {
+        "x": "2048.7400000000002",
+        "y": "5381.1943",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-77.811097233928",
+        "x": "2048.7400000000002",
+        "y": "5381.1943"
+      },
+      "mainOrientation": {
+        "angle": "-77.811097233928",
+        "x": "2048.7400000000002",
+        "y": "5381.1943"
+      },
+      "time": "2026-05-15 17:07:23",
+      "timeDiff_seconds": 0.353
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 10.500488,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2174.7814000000003",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 135.28198,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 347.28198,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 582.282,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "e5988b46-c166-46e5-8d50-bf9aa5b10828",
+    "type": "notification",
+    "timestamp": 1778836045265,
+    "time": "2026-05-15 17:07:25",
+    "delayTime": 1009.0,
+    "currentLocation": {
+      "position": {
+        "x": "2174.7814000000003",
+        "y": "5367.5007000000005",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-49.47359755143531",
+        "x": "2174.7814000000003",
+        "y": "5367.5007000000005"
+      },
+      "mainOrientation": {
+        "angle": "-49.47359755143531",
+        "x": "2174.7814000000003",
+        "y": "5367.5007000000005"
+      },
+      "time": "2026-05-15 17:07:24",
+      "timeDiff_seconds": 0.348
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 0.0,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2152.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 102.0,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 314.0,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 549.0,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "84db569a-325f-454d-bde5-4396bdd6b515",
+    "type": "notification",
+    "timestamp": 1778836046274,
+    "time": "2026-05-15 17:07:26",
+    "delayTime": 973.0,
+    "currentLocation": {
+      "position": {
+        "x": "2152.0",
+        "y": "5357.0",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "-14.664891419231367",
+        "x": "2152.0",
+        "y": "5357.0"
+      },
+      "mainOrientation": {
+        "angle": "-14.664891419231367",
+        "x": "2152.0",
+        "y": "5357.0"
+      },
+      "time": "2026-05-15 17:07:25",
+      "timeDiff_seconds": 0.357
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 3.6391602,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2529.2404",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 482.87964,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 694.87964,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 929.87964,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "79152454-3428-4aa8-bafc-8a14a90f5b16",
+    "type": "notification",
+    "timestamp": 1778836047247,
+    "time": "2026-05-15 17:07:27",
+    "delayTime": 1018.0,
+    "currentLocation": {
+      "position": {
+        "x": "2529.2404",
+        "y": "5360.639",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "6.172261246076886",
+        "x": "2529.2404",
+        "y": "5360.639"
+      },
+      "mainOrientation": {
+        "angle": "6.172261246076886",
+        "x": "2529.2404",
+        "y": "5360.639"
+      },
+      "time": "2026-05-15 17:07:26",
+      "timeDiff_seconds": 0.355
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 9.579102,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2496.6898",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 456.2688,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5357.0",
+          "z": "F1"
+        },
+        {
+          "distance": 668.2688,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 903.2688,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "3814d315-8434-4eec-94a3-3fba732bffe0",
+    "type": "notification",
+    "timestamp": 1778836048265,
+    "time": "2026-05-15 17:07:28",
+    "delayTime": 994.0,
+    "currentLocation": {
+      "position": {
+        "x": "2496.6898",
+        "y": "5366.579",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "0.009034700888136626",
+        "x": "2496.6898",
+        "y": "5366.579"
+      },
+      "mainOrientation": {
+        "angle": "0.009034700888136626",
+        "x": "2496.6898",
+        "y": "5366.579"
+      },
+      "time": "2026-05-15 17:07:27",
+      "timeDiff_seconds": 0.356
+    }
+  },
+  {
+    "data": {
+      "positionList": [
+        {
+          "distance": 53.87549,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2434.4574000000002",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 438.333,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5623.0",
+          "z": "F1"
+        },
+        {
+          "distance": 916.333,
+          "isGoods": false,
+          "isTarget": false,
+          "x": "2050.0",
+          "y": "5145.0",
+          "z": "F1"
+        },
+        {
+          "distance": 1151.333,
+          "isGoods": false,
+          "isTarget": true,
+          "x": "2285.0",
+          "y": "5145.0",
+          "z": "F1"
+        }
+      ]
+    },
+    "event": "navigationPath",
+    "messageId": "cfb76faf-272e-42d4-9fda-b9dfaf24c6e2",
+    "type": "notification",
+    "timestamp": 1778836049259,
+    "time": "2026-05-15 17:07:29",
+    "delayTime": 0.0,
+    "currentLocation": {
+      "position": {
+        "x": "2434.4574000000002",
+        "y": "5569.1246",
+        "z": "F1"
+      },
+      "heading": {
+        "angle": "2.4972885700804426",
+        "x": "2434.4574000000002",
+        "y": "5569.1246"
+      },
+      "mainOrientation": {
+        "angle": "2.4972885700804426",
+        "x": "2434.4574000000002",
+        "y": "5569.1246"
+      },
+      "time": "2026-05-15 17:07:28",
+      "timeDiff_seconds": 0.357
+    }
+  }
+]

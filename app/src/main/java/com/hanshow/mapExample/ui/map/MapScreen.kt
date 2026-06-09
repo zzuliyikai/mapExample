@@ -1,7 +1,6 @@
 package com.hanshow.mapExample.ui.map
 
 import android.graphics.Bitmap
-import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -12,8 +11,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
@@ -38,6 +37,8 @@ import com.hanshow.hsmap.bean.FloorMapData
 import com.hanshow.hsmap.bean.LocationMode
 import com.hanshow.hsmap.bean.ShapeInfo
 import com.hanshow.hsmap.bean.ShapeInfoDesc
+
+enum class MockMode { NONE, POSITION, NAVIGATOR }
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -100,11 +101,68 @@ fun MapScreen(
 
                 is MapUiState.Success -> {
                     val mapData = (uiState as MapUiState.Success).mapData
+                    var mockMode by remember { mutableStateOf(MockMode.NONE) }
+
                     Box(modifier = Modifier.fillMaxSize()) {
                         val hsMapState = HsMapView(
                             mapData = mapData,
                             modifier = Modifier.fillMaxSize()
                         )
+
+                        // Observe mock position updates and apply to HsMap
+                        LaunchedEffect(Unit) {
+                            viewModel.positionUpdates.collect { update ->
+                                hsMapState.value?.let { hsMap ->
+                                    val iconBitmap = createDemoIconBitmap()
+                                    val arrowBitmap = createDemoArrowBitmap()
+                                    val shapeInfo = ShapeInfo(
+                                        positionX = update.x.toInt(),
+                                        positionY = update.y.toInt(),
+                                        width = 100,
+                                        height = 100,
+                                        bitmap = iconBitmap,
+                                        onClickListener = null,
+                                        headingAngle = update.angle,
+                                        shapeDesc = ShapeInfoDesc(
+                                            bitmap = arrowBitmap,
+                                            width = 40,
+                                            height = 40,
+                                            marginBottom = 60
+                                        )
+                                    )
+                                    hsMap.updateStartIcon(shapeInfo)
+                                }
+                            }
+                        }
+
+                        // Observe mock navigator updates and apply to HsMap
+                        LaunchedEffect(Unit) {
+                            viewModel.navigatorUpdates.collect { update ->
+                                hsMapState.value?.let { hsMap ->
+                                    val iconBitmap = createDemoIconBitmap()
+                                    val arrowBitmap = createDemoArrowBitmap()
+                                    val shapeInfo = ShapeInfo(
+                                        positionX = update.x.toInt(),
+                                        positionY = update.y.toInt(),
+                                        width = 100,
+                                        height = 100,
+                                        bitmap = iconBitmap,
+                                        onClickListener = null,
+                                        headingAngle = null,
+                                        shapeDesc = ShapeInfoDesc(
+                                            bitmap = arrowBitmap,
+                                            width = 40,
+                                            height = 40,
+                                            marginBottom = 60
+                                        )
+                                    )
+                                    hsMap.updateRoutePathAndCurrentPosition(
+                                        update.routePath,
+                                        shapeInfo
+                                    )
+                                }
+                            }
+                        }
 
                         // Floating control panel at bottom
                         DemoControlPanel(
@@ -112,6 +170,24 @@ fun MapScreen(
                             mapData = mapData,
                             locationMode = locationMode,
                             snackbarHostState = snackbarHostState,
+                            mockMode = mockMode,
+                            onMockPositionStart = {
+                                mockMode = MockMode.POSITION
+                                viewModel.handleIntent(MapIntent.MockPosition)
+                            },
+                            onMockPositionStop = {
+                                mockMode = MockMode.NONE
+                                viewModel.handleIntent(MapIntent.StopMockPosition)
+                            },
+                            onMockNavigatorStart = {
+                                mockMode = MockMode.NAVIGATOR
+                                viewModel.handleIntent(MapIntent.MockNavigator)
+                            },
+                            onMockNavigatorStop = {
+                                mockMode = MockMode.NONE
+                                viewModel.handleIntent(MapIntent.StopMockNavigator)
+                                hsMapState.value?.clearRoutePath()
+                            },
                             onLocationModeChanged = { locationMode = it },
                             modifier = Modifier.align(Alignment.BottomCenter)
                         )
@@ -148,6 +224,11 @@ private fun DemoControlPanel(
     mapData: FloorMapData,
     locationMode: LocationMode,
     snackbarHostState: SnackbarHostState,
+    mockMode: MockMode,
+    onMockPositionStart: () -> Unit,
+    onMockPositionStop: () -> Unit,
+    onMockNavigatorStart: () -> Unit,
+    onMockNavigatorStop: () -> Unit,
     onLocationModeChanged: (LocationMode) -> Unit,
     modifier: Modifier = Modifier
 ) {
@@ -171,8 +252,8 @@ private fun DemoControlPanel(
     Column(
         modifier = modifier
             .fillMaxWidth()
-            .padding(12.dp),
-        verticalArrangement = Arrangement.spacedBy(8.dp)
+            .padding(horizontal = 12.dp, vertical = 8.dp),
+        verticalArrangement = Arrangement.spacedBy(6.dp)
     ) {
         // Location mode indicator
         Text(
@@ -181,38 +262,34 @@ private fun DemoControlPanel(
             color = MaterialTheme.colorScheme.onSurfaceVariant
         )
 
-        // Action buttons row
+        // Row 1: Mock & route controls
         Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .horizontalScroll(rememberScrollState()),
-            horizontalArrangement = Arrangement.spacedBy(6.dp)
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(4.dp)
         ) {
-            // Route demo
-            Button(onClick = {
-                val cx = mapData.width / 2f
-                val cy = mapData.height / 2f
+            // Mock position
+            if (mockMode == MockMode.POSITION) {
+                SmallButton(onClick = onMockPositionStop, text = "Stop Pos")
+            } else if (mockMode == MockMode.NONE) {
+                SmallButton(onClick = onMockPositionStart, text = "Mock Pos")
+            }
+
+            // Mock navigator
+            if (mockMode == MockMode.NAVIGATOR) {
+                SmallButton(onClick = onMockNavigatorStop, text = "Stop Nav")
+            } else if (mockMode == MockMode.NONE) {
+                SmallButton(onClick = onMockNavigatorStart, text = "Mock Nav")
+            }
+
+            SmallButton(onClick = {
                 hsMap?.addRoutePath(
-                    listOf(
-                        cx * 0.2f to cy * 0.3f,
-                        cx * 0.5f to cy * 0.3f,
-                        cx * 0.5f to cy * 0.7f,
-                        cx * 0.8f to cy * 0.7f
-                    )
+                    listOf(2382f to 5623f, 2050f to 5623f, 2050f to 5145f, 2000f to 1345f, 2550f to 1345f)
                 )
-            }) {
-                Text("Route")
-            }
+            }, text = "Route")
 
-            // Clear route
-            Button(onClick = {
-                hsMap?.clearRoutePath()
-            }) {
-                Text("Clear")
-            }
+            SmallButton(onClick = { hsMap?.clearRoutePath() }, text = "Clear")
 
-            // Position icon demo
-            Button(onClick = {
+            SmallButton(onClick = {
                 val cx = (mapData.width / 3f).toInt()
                 val cy = (mapData.height / 2f).toInt()
                 val iconBitmap = createDemoIconBitmap()
@@ -233,55 +310,41 @@ private fun DemoControlPanel(
                     )
                 )
                 hsMap?.updateStartIcon(shapeInfo)
-                hsMap?.showCenterPosition(shapeInfo.positionX?.toFloat() ?: 0f, shapeInfo.positionY?.toFloat() ?: 0f, hsMap.getCurrentScaleSize())
-            }) {
-                Text("Position")
-            }
+                hsMap?.showCenterPosition(
+                    shapeInfo.positionX?.toFloat() ?: 0f,
+                    shapeInfo.positionY?.toFloat() ?: 0f,
+                    hsMap.getCurrentScaleSize()
+                )
+            }, text = "Position")
+        }
 
-            // Follow mode
-            Button(onClick = {
+        // Row 2: Map operation controls
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(4.dp)
+        ) {
+            SmallButton(onClick = {
                 hsMap?.setLocationMode(LocationMode.FOLLOW)
                 onLocationModeChanged(LocationMode.FOLLOW)
-            }) {
-                Text("Follow")
-            }
+            }, text = "Follow")
 
-            // Free mode
-            Button(onClick = {
+            SmallButton(onClick = {
                 hsMap?.setLocationMode(LocationMode.FREE)
                 onLocationModeChanged(LocationMode.FREE)
-            }) {
-                Text("Free")
-            }
+            }, text = "Free")
 
-            // Scale 3m
-            Button(onClick = {
+            SmallButton(onClick = {
                 hsMap?.setScaleSize((mapData.width / 3f), (mapData.height / 2f), 0.8f)
-            }) {
-                Text("zoom out")
-            }
+            }, text = "Zoom Out")
 
-            // Scale 10m
-            Button(onClick = {
-                hsMap?.setScaleSize((mapData.width / 3f), (mapData.height / 2f),1.25f)
-            }) {
-                Text("zoom in")
-            }
+            SmallButton(onClick = {
+                hsMap?.setScaleSize((mapData.width / 3f), (mapData.height / 2f), 1.25f)
+            }, text = "Zoom In")
 
-            // Reset
-            Button(onClick = {
+            SmallButton(onClick = {
                 hsMap?.resetTransformData()
                 hsMap?.clearRoutePath()
-            }) {
-                Text("Reset")
-            }
-
-            // Rotation demo
-            Button(onClick = {
-                hsMap?.updateRotationAngle(90f)
-            }) {
-                Text("plan route")
-            }
+            }, text = "Reset")
         }
     }
 }
@@ -320,4 +383,27 @@ private fun createDemoArrowBitmap(): Bitmap {
     path.close()
     canvas.drawPath(path, paint)
     return bitmap
+}
+
+/**
+ * Compact button for the control panel, smaller height and text
+ */
+@Composable
+private fun SmallButton(
+    onClick: () -> Unit,
+    text: String,
+    modifier: Modifier = Modifier
+) {
+    Button(
+        onClick = onClick,
+        modifier = modifier.height(32.dp),
+        contentPadding = androidx.compose.foundation.layout.PaddingValues(
+            start = 8.dp, end = 8.dp, top = 0.dp, bottom = 0.dp
+        )
+    ) {
+        Text(
+            text = text,
+            style = MaterialTheme.typography.labelSmall
+        )
+    }
 }
