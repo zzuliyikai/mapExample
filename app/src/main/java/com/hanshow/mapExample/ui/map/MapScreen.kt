@@ -5,8 +5,9 @@ import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Path
-import android.util.Log
-import android.widget.Toast
+import androidx.compose.ui.graphics.Color as ComposeColor
+import android.graphics.Color as AndroidColor
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -18,13 +19,17 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SnackbarHost
 import androidx.compose.material3.SnackbarHostState
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
@@ -45,6 +50,8 @@ import com.hanshow.hsmap.bean.FloorMapData
 import com.hanshow.hsmap.bean.LocationMode
 import com.hanshow.hsmap.bean.ShapeInfo
 import com.hanshow.hsmap.bean.ShapeInfoDesc
+import androidx.core.graphics.toColorInt
+import com.hanshow.hsmap.bean.SelectionStyle
 
 // ============================================================
 // Enums
@@ -100,7 +107,6 @@ fun MapScreen(
                     viewModel = viewModel,
                     locationMode = locationMode,
                     onLocationModeChanged = { locationMode = it },
-                    snackbarHostState = snackbarHostState
                 )
 
                 is MapUiState.Error -> ErrorContent(
@@ -159,7 +165,6 @@ private fun MapContentSuccess(
     viewModel: MapViewModel,
     locationMode: LocationMode,
     onLocationModeChanged: (LocationMode) -> Unit,
-    snackbarHostState: SnackbarHostState
 ) {
     var mockMode by remember { mutableStateOf(MockMode.NONE) }
 
@@ -280,16 +285,24 @@ private fun DemoControlPanel(
     onLocationModeChanged: (LocationMode) -> Unit,
     modifier: Modifier = Modifier
 ) {
-    val context = LocalContext.current
+    var elementStr by remember { mutableStateOf("") }
+    var rotationEnabled by remember { mutableStateOf(true) }
+    var strokeColor by remember { mutableStateOf("#FF0000") }
+    var strokeWidth by remember { mutableStateOf("2") }
+    var fillColor by remember { mutableStateOf("#00FF00") }
+    var elementCode by remember { mutableStateOf("") }
 
     LaunchedEffect(hsMap) {
         hsMap?.let {
             it.elementClickEnabled = true
             it.setMaxSelectionCount(3, com.hanshow.hsmap.bean.SelectionMode.REPLACE_EARLIEST)
             it.onElementSelected = { elements ->
-                val codes = elements.map { e -> e.code }.joinToString(", ")
-                Log.d("HsMap", "Selected: $codes")
-                Toast.makeText(context, "Selected: $codes", Toast.LENGTH_SHORT).show()
+                if (elements.isNotEmpty()) {
+                    val elementContent = elements.joinToString(", ") { it.toString() }
+                    elementStr = "[$elementContent]"
+                } else {
+                    elementStr = ""
+                }
             }
             it.onLocationModeChanged = { mode ->
                 onLocationModeChanged(mode)
@@ -303,43 +316,23 @@ private fun DemoControlPanel(
             .padding(horizontal = 12.dp, vertical = 8.dp),
         verticalArrangement = Arrangement.spacedBy(6.dp)
     ) {
+
         Text(
-            text = "Mode: ${locationMode.name}",
+            text = elementStr,
             style = MaterialTheme.typography.labelMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant
         )
-
-        // Row 1: Simulation & Route
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(4.dp)
-        ) {
-            MockControlButtons(
-                mockMode = mockMode,
-                onMockPositionStart = onMockPositionStart,
-                onMockPositionStop = onMockPositionStop,
-                onMockNavigatorStart = onMockNavigatorStart,
-                onMockNavigatorStop = onMockNavigatorStop
-            )
-            SmallButton(onClick = { hsMap?.addRoutePath(demoRoutePath(mapData)) }, text = "Route")
-            SmallButton(onClick = { hsMap?.clearRoutePath() }, text = "Clear")
-            SmallButton(onClick = { hsMap?.showDemoPosition(mapData) }, text = "Position")
-        }
 
         // Row 2: Map Operations
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.spacedBy(4.dp)
         ) {
-            SmallButton(onClick = {
-                hsMap?.setLocationMode(LocationMode.FOLLOW)
-                onLocationModeChanged(LocationMode.FOLLOW)
-            }, text = "Follow")
 
             SmallButton(onClick = {
-                hsMap?.setLocationMode(LocationMode.FREE)
-                onLocationModeChanged(LocationMode.FREE)
-            }, text = "Free")
+                hsMap?.resetTransformData()
+                hsMap?.clearRoutePath()
+            }, text = "Reset")
 
             SmallButton(onClick = {
                 hsMap?.setScaleSize(mapData.width / 3f, mapData.height / 2f, 0.8f)
@@ -350,9 +343,80 @@ private fun DemoControlPanel(
             }, text = "Zoom In")
 
             SmallButton(onClick = {
-                hsMap?.resetTransformData()
-                hsMap?.clearRoutePath()
-            }, text = "Reset")
+                rotationEnabled = !rotationEnabled
+                hsMap?.rotateEnabled = rotationEnabled
+            }, text = if (rotationEnabled) "Rotation OFF" else "Rotation ON")
+        }
+
+        // Element Style Input
+        Surface(
+            shape = RoundedCornerShape(8.dp),
+            color = MaterialTheme.colorScheme.surfaceVariant,
+            tonalElevation = 1.dp
+        ) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(8.dp),
+                verticalArrangement = Arrangement.spacedBy(4.dp)
+            ) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                ) {
+                    ColorInputField(
+                        value = strokeColor,
+                        onValueChange = { strokeColor = it },
+                        label = "Stroke Color",
+                        modifier = Modifier.weight(1f)
+                    )
+                    OutlinedTextField(
+                        value = strokeWidth,
+                        onValueChange = { strokeWidth = it },
+                        label = { Text("Stroke Width", style = MaterialTheme.typography.labelSmall) },
+                        modifier = Modifier
+                            .weight(1f)
+                            .height(56.dp),
+                        singleLine = true,
+                        textStyle = MaterialTheme.typography.bodySmall
+                    )
+                }
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                ) {
+                    ColorInputField(
+                        value = fillColor,
+                        onValueChange = { fillColor = it },
+                        label = "Fill Color",
+                        modifier = Modifier.weight(1f)
+                    )
+                    OutlinedTextField(
+                        value = elementCode,
+                        onValueChange = { elementCode = it },
+                        label = { Text("Element Code", style = MaterialTheme.typography.labelSmall) },
+                        modifier = Modifier
+                            .weight(1f)
+                            .height(56.dp),
+                        singleLine = true,
+                        textStyle = MaterialTheme.typography.bodySmall
+                    )
+                }
+                SmallButton(
+                    onClick = {
+                        hsMap?.setElementOverlay(
+                            elementCode, SelectionStyle(
+                                borderColor = strokeColor.toColorInt(),
+                                fillColor = fillColor.toColorInt(),
+                                borderWidth = strokeWidth.toFloat(),
+                                borderCornerRadius = 1f
+                            )
+                        )
+                    },
+                    text = "Apply Style",
+                    modifier = Modifier.fillMaxWidth()
+                )
+            }
         }
     }
 }
@@ -392,6 +456,37 @@ private fun SmallButton(
     ) {
         Text(text, style = MaterialTheme.typography.labelSmall)
     }
+}
+
+@Composable
+private fun ColorInputField(
+    value: String,
+    onValueChange: (String) -> Unit,
+    label: String,
+    modifier: Modifier = Modifier
+) {
+    OutlinedTextField(
+        value = value,
+        onValueChange = onValueChange,
+        label = { Text(label, style = MaterialTheme.typography.labelSmall) },
+        modifier = modifier.height(56.dp),
+        singleLine = true,
+        textStyle = MaterialTheme.typography.bodySmall,
+        leadingIcon = {
+            Box(
+                modifier = Modifier
+                    .size(16.dp)
+                    .background(
+                        color = try {
+                            ComposeColor(value.toColorInt())
+                        } catch (_: Exception) {
+                            ComposeColor.Transparent
+                        },
+                        RoundedCornerShape(3.dp)
+                    )
+            )
+        }
+    )
 }
 
 // ============================================================
