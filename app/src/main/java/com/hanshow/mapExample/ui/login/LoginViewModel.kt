@@ -3,6 +3,7 @@ package com.hanshow.mapExample.ui.login
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.hanshow.mapExample.data.repository.AuthRepository
+import com.hanshow.mapExample.data.repository.SettingsRepository
 import com.hanshow.mapExample.util.Result
 import com.hanshow.mapExample.util.TokenManager
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -15,7 +16,8 @@ import javax.inject.Inject
 @HiltViewModel
 class LoginViewModel @Inject constructor(
     private val authRepository: AuthRepository,
-    private val tokenManager: TokenManager
+    private val tokenManager: TokenManager,
+    private val settingsRepository: SettingsRepository
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow<LoginUiState>(LoginUiState.Idle)
@@ -45,6 +47,10 @@ class LoginViewModel @Inject constructor(
                             accessToken = loginData.accessToken,
                             refreshToken = loginData.refreshToken
                         )
+
+                        settingsRepository.saveUserName(username)
+                        settingsRepository.savePwd(password)
+
                     }
                     is Result.Error -> _uiState.value = LoginUiState.Error(result.message)
                 }

@@ -4,6 +4,7 @@ import com.hanshow.mapExample.data.model.auth.ErrorCode
 import okhttp3.Interceptor
 import okhttp3.Response
 import org.json.JSONObject
+import java.io.IOException
 import javax.inject.Inject
 
 /**
@@ -64,4 +65,4 @@ class HttpErrorInterceptor @Inject constructor() : Interceptor {
 class HttpErrorException(
     val httpCode: Int,
     val userMessage: String
-) : Exception(userMessage)
+) : IOException(userMessage)

@@ -7,6 +7,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.hanshow.mapExample.ui.login.LoginScreen
 import com.hanshow.mapExample.ui.map.MapScreen
+import com.hanshow.mapExample.ui.settings.SettingsScreen
 
 @Composable
 fun AppNavigation(
@@ -20,15 +21,25 @@ fun AppNavigation(
             LoginScreen(
                 onLoginSuccess = {
                     navController.navigate(Route.Map.route) {
-                        // Clear login backstack after successful login to prevent going back
                         popUpTo(Route.Login.route) { inclusive = true }
                     }
+                },
+                onNavigateToSettings = {
+                    navController.navigate(Route.Settings.route)
                 }
             )
         }
 
         composable(Route.Map.route) {
             MapScreen()
+        }
+
+        composable(Route.Settings.route) {
+            SettingsScreen(
+                onNavigateBack = {
+                    navController.popBackStack()
+                }
+            )
         }
     }
 }

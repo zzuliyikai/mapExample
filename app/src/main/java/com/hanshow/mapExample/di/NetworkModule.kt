@@ -15,8 +15,13 @@ import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
+import java.security.SecureRandom
+import java.security.cert.X509Certificate
 import javax.inject.Named
 import javax.inject.Singleton
+import javax.net.ssl.SSLContext
+import javax.net.ssl.TrustManager
+import javax.net.ssl.X509TrustManager
 
 @Module
 @InstallIn(SingletonComponent::class)
@@ -25,6 +30,24 @@ object NetworkModule {
     private val json = Json {
         ignoreUnknownKeys = true
         isLenient = true
+    }
+
+    /**
+     * Trust manager that accepts all certificates — for development/testing only.
+     */
+    private val trustAllCerts = arrayOf<TrustManager>(object : X509TrustManager {
+        override fun checkClientTrusted(chain: Array<out X509Certificate>?, authType: String?) {}
+        override fun checkServerTrusted(chain: Array<out X509Certificate>?, authType: String?) {}
+        override fun getAcceptedIssuers(): Array<X509Certificate> = arrayOf()
+    })
+
+    /**
+     * Creates an SSLContext that trusts all certificates.
+     */
+    private fun createTrustAllSslContext(): SSLContext {
+        val sslContext = SSLContext.getInstance("TLS")
+        sslContext.init(null, trustAllCerts, SecureRandom())
+        return sslContext
     }
 
     @Provides
@@ -44,10 +67,15 @@ object NetworkModule {
     fun provideAuthOkHttpClient(
         loggingInterceptor: HttpLoggingInterceptor,
         httpErrorInterceptor: HttpErrorInterceptor
-    ): OkHttpClient = OkHttpClient.Builder()
-        .addInterceptor(loggingInterceptor)
-        .addInterceptor(httpErrorInterceptor)
-        .build()
+    ): OkHttpClient {
+        val sslContext = createTrustAllSslContext()
+        return OkHttpClient.Builder()
+            .addInterceptor(loggingInterceptor)
+            .addInterceptor(httpErrorInterceptor)
+            .sslSocketFactory(sslContext.socketFactory, trustAllCerts[0] as X509TrustManager)
+            .hostnameVerifier { _, _ -> true }
+            .build()
+    }
 
     @Provides
     @Singleton
@@ -56,11 +84,16 @@ object NetworkModule {
         loggingInterceptor: HttpLoggingInterceptor,
         httpErrorInterceptor: HttpErrorInterceptor,
         mapHeaderInterceptor: MapHeaderInterceptor
-    ): OkHttpClient = OkHttpClient.Builder()
-        .addInterceptor(loggingInterceptor)
-        .addInterceptor(httpErrorInterceptor)
-        .addInterceptor(mapHeaderInterceptor)
-        .build()
+    ): OkHttpClient {
+        val sslContext = createTrustAllSslContext()
+        return OkHttpClient.Builder()
+            .addInterceptor(loggingInterceptor)
+            .addInterceptor(httpErrorInterceptor)
+            .addInterceptor(mapHeaderInterceptor)
+            .sslSocketFactory(sslContext.socketFactory, trustAllCerts[0] as X509TrustManager)
+            .hostnameVerifier { _, _ -> true }
+            .build()
+    }
 
     @Provides
     @Singleton

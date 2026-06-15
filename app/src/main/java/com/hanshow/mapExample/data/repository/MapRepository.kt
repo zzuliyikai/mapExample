@@ -1,14 +1,18 @@
 package com.hanshow.mapExample.data.repository
 
+import android.util.Log
 import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import com.hanshow.hsmap.bean.FloorMapData
 import com.hanshow.mapExample.data.api.HttpErrorException
 import com.hanshow.mapExample.data.api.MapApiService
+import com.hanshow.mapExample.data.model.map.GsonMapResponse
 import com.hanshow.mapExample.data.model.map.MapDataRequest
 import com.hanshow.mapExample.util.Result
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
-import org.json.JSONObject
+import kotlinx.coroutines.flow.flowOn
 import javax.inject.Inject
 
 class MapRepository @Inject constructor(
@@ -21,26 +25,27 @@ class MapRepository @Inject constructor(
         try {
             val responseBody = mapApiService.getMapData(MapDataRequest(floorId))
             val jsonString = responseBody.string()
-            val json = JSONObject(jsonString)
+            val time = System.currentTimeMillis()
 
-            val code = json.optString("code", "")
-            val message = json.optString("message", "")
+            // Parse the entire response with Gson in ONE pass — no JSONObject triple-parsing
+            val responseType = object : TypeToken<GsonMapResponse<FloorMapData>>() {}.type
+            val response = gson.fromJson<GsonMapResponse<FloorMapData>>(jsonString, responseType)
 
-            if (code == "SUC") {
-                val dataJson = json.optJSONObject("data")
-                if (dataJson != null) {
-                    val floorMapData = gson.fromJson(dataJson.toString(), FloorMapData::class.java)
-                    emit(Result.Success(floorMapData))
+            Log.d("render time", "Gson parse time spent = ${System.currentTimeMillis() - time}ms")
+
+            if (response.code == "SUC") {
+                if (response.data != null) {
+                    emit(Result.Success(response.data))
                 } else {
                     emit(Result.Error("No map data found"))
                 }
             } else {
-                emit(Result.Error(message))
+                emit(Result.Error(response.message))
             }
         } catch (e: HttpErrorException) {
             emit(Result.Error(e.userMessage))
         } catch (e: Exception) {
             emit(Result.Error(e.message ?: "Failed to load map data"))
         }
-    }
+    }.flowOn(Dispatchers.IO)
 }

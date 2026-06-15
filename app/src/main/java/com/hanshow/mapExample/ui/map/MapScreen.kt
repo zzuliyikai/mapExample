@@ -1,12 +1,5 @@
 package com.hanshow.mapExample.ui.map
 
-import android.graphics.Bitmap
-import android.graphics.Canvas
-import android.graphics.Color
-import android.graphics.Paint
-import android.graphics.Path
-import androidx.compose.ui.graphics.Color as ComposeColor
-import android.graphics.Color as AndroidColor
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -19,7 +12,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
@@ -42,26 +34,14 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
+import androidx.core.graphics.toColorInt
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.hanshow.hsmap.HsMap
 import com.hanshow.hsmap.bean.FloorMapData
-import com.hanshow.hsmap.bean.LocationMode
-import com.hanshow.hsmap.bean.ShapeInfo
-import com.hanshow.hsmap.bean.ShapeInfoDesc
-import androidx.core.graphics.toColorInt
 import com.hanshow.hsmap.bean.SelectionStyle
+import androidx.compose.ui.graphics.Color as ComposeColor
 
-// ============================================================
-// Enums
-// ============================================================
-
-enum class MockMode { NONE, POSITION, NAVIGATOR }
-
-// ============================================================
-// Main Screen
-// ============================================================
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -70,7 +50,6 @@ fun MapScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val snackbarHostState = remember { SnackbarHostState() }
-    var locationMode by remember { mutableStateOf(LocationMode.FREE) }
 
     LaunchedEffect(Unit) {
         viewModel.handleIntent(MapIntent.LoadMapData)
@@ -100,13 +79,10 @@ fun MapScreen(
                 .padding(innerPadding)
         ) {
             when (uiState) {
-                is MapUiState.Idle -> Unit
-                is MapUiState.Loading -> LoadingContent()
+                is MapUiState.Loading, is MapUiState.Idle -> LoadingContent()
                 is MapUiState.Success -> MapContentSuccess(
                     mapData = (uiState as MapUiState.Success).mapData,
                     viewModel = viewModel,
-                    locationMode = locationMode,
-                    onLocationModeChanged = { locationMode = it },
                 )
 
                 is MapUiState.Error -> ErrorContent(
@@ -163,108 +139,37 @@ private fun ErrorContent(
 private fun MapContentSuccess(
     mapData: FloorMapData,
     viewModel: MapViewModel,
-    locationMode: LocationMode,
-    onLocationModeChanged: (LocationMode) -> Unit,
 ) {
-    var mockMode by remember { mutableStateOf(MockMode.NONE) }
+    var isMapRendering by remember { mutableStateOf(true) }
 
     Box(modifier = Modifier.fillMaxSize()) {
         val hsMapState = HsMapView(
             mapData = mapData,
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier.fillMaxSize(),
+            onRenderComplete = { isMapRendering = false }
         )
 
-        // Observe mock data streams
-        MockPositionObserver(hsMapState = hsMapState, viewModel = viewModel)
-        MockNavigatorObserver(hsMapState = hsMapState, viewModel = viewModel)
+        // Show loading overlay while map is rendering
+        if (isMapRendering) {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .align(Alignment.Center),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center
+            ) {
+                CircularProgressIndicator(modifier = Modifier.size(48.dp))
+                Spacer(modifier = Modifier.height(16.dp))
+                Text("Rendering map...", style = MaterialTheme.typography.bodyLarge)
+            }
+        }
 
-        // Bottom control panel
+        // Bottom control panel (always present, but may be behind loading overlay)
         DemoControlPanel(
             hsMap = hsMapState.value,
             mapData = mapData,
-            locationMode = locationMode,
-            mockMode = mockMode,
-            onMockPositionStart = {
-                mockMode = MockMode.POSITION
-                viewModel.handleIntent(MapIntent.MockPosition)
-            },
-            onMockPositionStop = {
-                mockMode = MockMode.NONE
-                viewModel.handleIntent(MapIntent.StopMockPosition)
-            },
-            onMockNavigatorStart = {
-                mockMode = MockMode.NAVIGATOR
-                viewModel.handleIntent(MapIntent.MockNavigator)
-            },
-            onMockNavigatorStop = {
-                mockMode = MockMode.NONE
-                viewModel.handleIntent(MapIntent.StopMockNavigator)
-                hsMapState.value?.clearRoutePath()
-            },
-            onLocationModeChanged = onLocationModeChanged,
             modifier = Modifier.align(Alignment.BottomCenter)
         )
-    }
-}
-
-// ============================================================
-// Mock Data Observers
-// ============================================================
-
-@Composable
-private fun MockPositionObserver(
-    hsMapState: androidx.compose.runtime.MutableState<HsMap?>,
-    viewModel: MapViewModel
-) {
-    LaunchedEffect(Unit) {
-        viewModel.positionUpdates.collect { update ->
-            hsMapState.value?.updateStartIcon(
-                ShapeInfo(
-                    positionX = update.x.toInt(),
-                    positionY = update.y.toInt(),
-                    width = 100,
-                    height = 100,
-                    bitmap = createDemoIconBitmap(),
-                    onClickListener = null,
-                    headingAngle = update.angle,
-                    shapeDesc = ShapeInfoDesc(
-                        bitmap = createDemoArrowBitmap(),
-                        width = 40,
-                        height = 40,
-                        marginBottom = 60
-                    )
-                )
-            )
-        }
-    }
-}
-
-@Composable
-private fun MockNavigatorObserver(
-    hsMapState: androidx.compose.runtime.MutableState<HsMap?>,
-    viewModel: MapViewModel
-) {
-    LaunchedEffect(Unit) {
-        viewModel.navigatorUpdates.collect { update ->
-            hsMapState.value?.updateRoutePathAndCurrentPosition(
-                update.routePath,
-                ShapeInfo(
-                    positionX = update.x.toInt(),
-                    positionY = update.y.toInt(),
-                    width = 100,
-                    height = 100,
-                    bitmap = createDemoIconBitmap(),
-                    onClickListener = null,
-                    headingAngle = null,
-                    shapeDesc = ShapeInfoDesc(
-                        bitmap = createDemoArrowBitmap(),
-                        width = 40,
-                        height = 40,
-                        marginBottom = 60
-                    )
-                )
-            )
-        }
     }
 }
 
@@ -276,13 +181,6 @@ private fun MockNavigatorObserver(
 private fun DemoControlPanel(
     hsMap: HsMap?,
     mapData: FloorMapData,
-    locationMode: LocationMode,
-    mockMode: MockMode,
-    onMockPositionStart: () -> Unit,
-    onMockPositionStop: () -> Unit,
-    onMockNavigatorStart: () -> Unit,
-    onMockNavigatorStop: () -> Unit,
-    onLocationModeChanged: (LocationMode) -> Unit,
     modifier: Modifier = Modifier
 ) {
     var elementStr by remember { mutableStateOf("") }
@@ -291,6 +189,8 @@ private fun DemoControlPanel(
     var strokeWidth by remember { mutableStateOf("2") }
     var fillColor by remember { mutableStateOf("#00FF00") }
     var elementCode by remember { mutableStateOf("") }
+    var scaleMin by remember { mutableStateOf("1") }
+    var scaleMax by remember { mutableStateOf("10") }
 
     LaunchedEffect(hsMap) {
         hsMap?.let {
@@ -303,9 +203,6 @@ private fun DemoControlPanel(
                 } else {
                     elementStr = ""
                 }
-            }
-            it.onLocationModeChanged = { mode ->
-                onLocationModeChanged(mode)
             }
         }
     }
@@ -348,6 +245,70 @@ private fun DemoControlPanel(
             }, text = if (rotationEnabled) "Rotation OFF" else "Rotation ON")
         }
 
+        // Scale Range & Zoom Input
+        Surface(
+            shape = RoundedCornerShape(8.dp),
+            color = MaterialTheme.colorScheme.surfaceVariant,
+            tonalElevation = 1.dp
+        ) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(8.dp),
+                verticalArrangement = Arrangement.spacedBy(4.dp)
+            ) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                ) {
+                    OutlinedTextField(
+                        value = scaleMin,
+                        onValueChange = { scaleMin = it },
+                        label = {
+                            Text(
+                                "Scale Min",
+                                style = MaterialTheme.typography.labelSmall
+                            )
+                        },
+                        modifier = Modifier
+                            .weight(1f)
+                            .height(56.dp),
+                        singleLine = true,
+                        textStyle = MaterialTheme.typography.bodySmall
+                    )
+                    OutlinedTextField(
+                        value = scaleMax,
+                        onValueChange = { scaleMax = it },
+                        label = {
+                            Text(
+                                "Scale Max",
+                                style = MaterialTheme.typography.labelSmall
+                            )
+                        },
+                        modifier = Modifier
+                            .weight(1f)
+                            .height(56.dp),
+                        singleLine = true,
+                        textStyle = MaterialTheme.typography.bodySmall
+                    )
+                }
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                ) {
+                    SmallButton(
+                        onClick = {
+                            val min = scaleMin.toFloatOrNull() ?: 1f
+                            val max = scaleMax.toFloatOrNull() ?: 10f
+                            hsMap?.setScaleRange(min, max)
+                        },
+                        text = "Apply Scale",
+                        modifier = Modifier.weight(1f)
+                    )
+                }
+            }
+        }
+
         // Element Style Input
         Surface(
             shape = RoundedCornerShape(8.dp),
@@ -373,7 +334,12 @@ private fun DemoControlPanel(
                     OutlinedTextField(
                         value = strokeWidth,
                         onValueChange = { strokeWidth = it },
-                        label = { Text("Stroke Width", style = MaterialTheme.typography.labelSmall) },
+                        label = {
+                            Text(
+                                "Stroke Width",
+                                style = MaterialTheme.typography.labelSmall
+                            )
+                        },
                         modifier = Modifier
                             .weight(1f)
                             .height(56.dp),
@@ -394,7 +360,12 @@ private fun DemoControlPanel(
                     OutlinedTextField(
                         value = elementCode,
                         onValueChange = { elementCode = it },
-                        label = { Text("Element Code", style = MaterialTheme.typography.labelSmall) },
+                        label = {
+                            Text(
+                                "Element Code",
+                                style = MaterialTheme.typography.labelSmall
+                            )
+                        },
                         modifier = Modifier
                             .weight(1f)
                             .height(56.dp),
@@ -421,27 +392,6 @@ private fun DemoControlPanel(
     }
 }
 
-// ============================================================
-// Panel Sub-components
-// ============================================================
-
-@Composable
-private fun MockControlButtons(
-    mockMode: MockMode,
-    onMockPositionStart: () -> Unit,
-    onMockPositionStop: () -> Unit,
-    onMockNavigatorStart: () -> Unit,
-    onMockNavigatorStop: () -> Unit
-) {
-    when (mockMode) {
-        MockMode.POSITION -> SmallButton(onClick = onMockPositionStop, text = "Stop Pos")
-        MockMode.NAVIGATOR -> SmallButton(onClick = onMockNavigatorStop, text = "Stop Nav")
-        MockMode.NONE -> {
-            SmallButton(onClick = onMockPositionStart, text = "Mock Pos")
-            SmallButton(onClick = onMockNavigatorStart, text = "Mock Nav")
-        }
-    }
-}
 
 @Composable
 private fun SmallButton(
@@ -487,80 +437,4 @@ private fun ColorInputField(
             )
         }
     )
-}
-
-// ============================================================
-// HsMap Demo Extensions (action helpers)
-// ============================================================
-
-private fun HsMap.showDemoPosition(mapData: FloorMapData) {
-    val cx = (mapData.width / 3f).toInt()
-    val cy = (mapData.height / 2f).toInt()
-    val shapeInfo = ShapeInfo(
-        positionX = cx,
-        positionY = cy,
-        width = 80,
-        height = 80,
-        bitmap = createDemoIconBitmap(),
-        onClickListener = null,
-        headingAngle = 45f,
-        shapeDesc = ShapeInfoDesc(
-            width = 30,
-            height = 30,
-            bitmap = createDemoArrowBitmap(),
-            marginBottom = 50
-        )
-    )
-    updateStartIcon(shapeInfo)
-    showCenterPosition(
-        shapeInfo.positionX?.toFloat() ?: 0f,
-        shapeInfo.positionY?.toFloat() ?: 0f,
-        getCurrentScaleSize()
-    )
-}
-
-private fun demoRoutePath(mapData: FloorMapData): List<Pair<Float, Float>> {
-    return listOf(
-        2382f to 5623f,
-        2050f to 5623f,
-        2050f to 5145f,
-        2050f to 1623f,
-    )
-}
-
-// ============================================================
-// Bitmap Helpers
-// ============================================================
-
-private fun createDemoIconBitmap(): Bitmap {
-    val size = 80
-    val bitmap = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888)
-    val canvas = Canvas(bitmap)
-    val paint = Paint().apply { isAntiAlias = true }
-
-    paint.color = Color.BLUE
-    canvas.drawCircle(size / 2f, size / 2f, size / 2f * 0.8f, paint)
-
-    paint.color = Color.WHITE
-    canvas.drawCircle(size / 2f, size / 2f, size / 2f * 0.3f, paint)
-
-    return bitmap
-}
-
-private fun createDemoArrowBitmap(): Bitmap {
-    val size = 30
-    val bitmap = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888)
-    val canvas = Canvas(bitmap)
-    val paint = Paint().apply {
-        color = Color.RED
-        isAntiAlias = true
-    }
-    val path = Path().apply {
-        moveTo(size / 2f, 0f)
-        lineTo(0f, size.toFloat())
-        lineTo(size.toFloat(), size.toFloat())
-        close()
-    }
-    canvas.drawPath(path, paint)
-    return bitmap
 }
