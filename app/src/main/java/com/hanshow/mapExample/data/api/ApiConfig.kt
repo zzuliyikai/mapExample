@@ -20,7 +20,7 @@ object ApiConfig {
 
     var FLOOR_ID: Int = 23
 
-    var userName: String = "yikkai"
+    var userName: String = "yikai"
 
     var pwd: String = "aspas0"
 }

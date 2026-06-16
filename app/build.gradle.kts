@@ -82,5 +82,5 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
-    implementation(files("libs/hsmap-1.0.0.aar"))
+    implementation(files("libs/hsmap-2.0.0.aar"))
 }
